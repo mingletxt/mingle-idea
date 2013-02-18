@@ -1,0 +1,59 @@
+public static java.lang.String withStringBuilder(int);
+  Code:
+   Stack=2, Locals=4, Args_size=1
+   0:	aconst_null
+   1:	astore_1
+   2:	ldc	#18; //String temp
+   4:	astore_2
+   5:	iconst_0
+   6:	istore_3
+   7:	iload_3
+   8:	iload_0
+   9:	if_icmpge	43
+   12:	new	#9; //class java/lang/StringBuilder
+   15:	dup
+   16:	invokespecial	#10; //Method java/lang/StringBuilder."<init>":()V
+   19:	astore_1
+   20:	aload_1
+   21:	aload_2
+   22:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   25:	pop
+   26:	aload_1
+   27:	aload_2
+   28:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   31:	pop
+   32:	aload_1
+   33:	invokevirtual	#16; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   36:	pop
+   37:	iinc	3, 1
+   40:	goto	7
+   43:	aload_1
+   44:	invokevirtual	#16; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   47:	areturn
+  LineNumberTable: 
+   line 62: 0
+   line 63: 2
+   line 64: 5
+   line 65: 12
+   line 66: 20
+   line 67: 26
+   line 68: 32
+   line 64: 37
+   line 70: 43
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   7      36      3    i       I
+   0      48      0    count       I
+   2      46      1    sb       Ljava/lang/StringBuilder;
+   5      43      2    temp       Ljava/lang/String;
+
+  StackMapTable: number_of_entries = 2
+   frame_type = 254 /* append */
+     offset_delta = 7
+     locals = [ class java/lang/StringBuilder, class java/lang/String, int ]
+   frame_type = 250 /* chop */
+     offset_delta = 35
+
+
+}

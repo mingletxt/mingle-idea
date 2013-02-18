@@ -1,0 +1,443 @@
+Compiled from "JavapTip.java"
+public class com.mingle.string.JavapTip extends java.lang.Object
+  SourceFile: "JavapTip.java"
+  minor version: 0
+  major version: 50
+  Constant pool:
+const #1 = Method	#24.#65;	//  java/lang/Object."<init>":()V
+const #2 = Method	#23.#66;	//  com/mingle/string/JavapTip.withStrings:(I)Ljava/lang/String;
+const #3 = Method	#23.#67;	//  com/mingle/string/JavapTip.withStringBuffer:(I)Ljava/lang/String;
+const #4 = Method	#23.#68;	//  com/mingle/string/JavapTip.withStringBuilder:(I)Ljava/lang/String;
+const #5 = class	#69;	//  java/util/Date
+const #6 = Method	#5.#65;	//  java/util/Date."<init>":()V
+const #7 = Method	#5.#70;	//  java/util/Date.getTime:()J
+const #8 = Field	#71.#72;	//  java/lang/System.out:Ljava/io/PrintStream;
+const #9 = class	#73;	//  java/lang/StringBuilder
+const #10 = Method	#9.#65;	//  java/lang/StringBuilder."<init>":()V
+const #11 = String	#74;	//  withStrings: 
+const #12 = Method	#9.#75;	//  java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+const #13 = Method	#9.#76;	//  java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+const #14 = String	#77;	//   vs withStringBuffer: 
+const #15 = String	#78;	//   vs withStringBuilder: 
+const #16 = Method	#9.#79;	//  java/lang/StringBuilder.toString:()Ljava/lang/String;
+const #17 = Method	#80.#81;	//  java/io/PrintStream.println:(Ljava/lang/String;)V
+const #18 = String	#56;	//  temp
+const #19 = class	#82;	//  java/lang/StringBuffer
+const #20 = Method	#19.#65;	//  java/lang/StringBuffer."<init>":()V
+const #21 = Method	#19.#83;	//  java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+const #22 = Method	#19.#79;	//  java/lang/StringBuffer.toString:()Ljava/lang/String;
+const #23 = class	#84;	//  com/mingle/string/JavapTip
+const #24 = class	#85;	//  java/lang/Object
+const #25 = Asciz	<init>;
+const #26 = Asciz	()V;
+const #27 = Asciz	Code;
+const #28 = Asciz	LineNumberTable;
+const #29 = Asciz	LocalVariableTable;
+const #30 = Asciz	this;
+const #31 = Asciz	Lcom/mingle/string/JavapTip;;
+const #32 = Asciz	main;
+const #33 = Asciz	([Ljava/lang/String;)V;
+const #34 = Asciz	d1;
+const #35 = Asciz	Ljava/util/Date;;
+const #36 = Asciz	d2;
+const #37 = Asciz	d3;
+const #38 = Asciz	d4;
+const #39 = Asciz	d5;
+const #40 = Asciz	d6;
+const #41 = Asciz	i;
+const #42 = Asciz	I;
+const #43 = Asciz	args;
+const #44 = Asciz	[Ljava/lang/String;;
+const #45 = Asciz	count;
+const #46 = Asciz	total;
+const #47 = Asciz	withStrings;
+const #48 = Asciz	J;
+const #49 = Asciz	withStringBuffer;
+const #50 = Asciz	withStringBuilder;
+const #51 = Asciz	StackMapTable;
+const #52 = class	#44;	//  "[Ljava/lang/String;"
+const #53 = Asciz	(I)Ljava/lang/String;;
+const #54 = Asciz	s;
+const #55 = Asciz	Ljava/lang/String;;
+const #56 = Asciz	temp;
+const #57 = class	#86;	//  java/lang/String
+const #58 = Asciz	sb;
+const #59 = Asciz	Ljava/lang/StringBuffer;;
+const #60 = class	#82;	//  java/lang/StringBuffer
+const #61 = Asciz	Ljava/lang/StringBuilder;;
+const #62 = class	#73;	//  java/lang/StringBuilder
+const #63 = Asciz	SourceFile;
+const #64 = Asciz	JavapTip.java;
+const #65 = NameAndType	#25:#26;//  "<init>":()V
+const #66 = NameAndType	#47:#53;//  withStrings:(I)Ljava/lang/String;
+const #67 = NameAndType	#49:#53;//  withStringBuffer:(I)Ljava/lang/String;
+const #68 = NameAndType	#50:#53;//  withStringBuilder:(I)Ljava/lang/String;
+const #69 = Asciz	java/util/Date;
+const #70 = NameAndType	#87:#88;//  getTime:()J
+const #71 = class	#89;	//  java/lang/System
+const #72 = NameAndType	#90:#91;//  out:Ljava/io/PrintStream;
+const #73 = Asciz	java/lang/StringBuilder;
+const #74 = Asciz	withStrings: ;
+const #75 = NameAndType	#92:#93;//  append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+const #76 = NameAndType	#92:#94;//  append:(J)Ljava/lang/StringBuilder;
+const #77 = Asciz	 vs withStringBuffer: ;
+const #78 = Asciz	 vs withStringBuilder: ;
+const #79 = NameAndType	#95:#96;//  toString:()Ljava/lang/String;
+const #80 = class	#97;	//  java/io/PrintStream
+const #81 = NameAndType	#98:#99;//  println:(Ljava/lang/String;)V
+const #82 = Asciz	java/lang/StringBuffer;
+const #83 = NameAndType	#92:#100;//  append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+const #84 = Asciz	com/mingle/string/JavapTip;
+const #85 = Asciz	java/lang/Object;
+const #86 = Asciz	java/lang/String;
+const #87 = Asciz	getTime;
+const #88 = Asciz	()J;
+const #89 = Asciz	java/lang/System;
+const #90 = Asciz	out;
+const #91 = Asciz	Ljava/io/PrintStream;;
+const #92 = Asciz	append;
+const #93 = Asciz	(Ljava/lang/String;)Ljava/lang/StringBuilder;;
+const #94 = Asciz	(J)Ljava/lang/StringBuilder;;
+const #95 = Asciz	toString;
+const #96 = Asciz	()Ljava/lang/String;;
+const #97 = Asciz	java/io/PrintStream;
+const #98 = Asciz	println;
+const #99 = Asciz	(Ljava/lang/String;)V;
+const #100 = Asciz	(Ljava/lang/String;)Ljava/lang/StringBuffer;;
+
+{
+public com.mingle.string.JavapTip();
+  Code:
+   Stack=1, Locals=1, Args_size=1
+   0:	aload_0
+   1:	invokespecial	#1; //Method java/lang/Object."<init>":()V
+   4:	return
+  LineNumberTable: 
+   line 11: 0
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   0      5      0    this       Lcom/mingle/string/JavapTip;
+
+
+public static void main(java.lang.String[]);
+  Code:
+   Stack=6, Locals=16, Args_size=1
+   0:	sipush	10000
+   3:	istore_1
+   4:	bipush	10
+   6:	istore_2
+   7:	iload_1
+   8:	invokestatic	#2; //Method withStrings:(I)Ljava/lang/String;
+   11:	pop
+   12:	iload_1
+   13:	invokestatic	#3; //Method withStringBuffer:(I)Ljava/lang/String;
+   16:	pop
+   17:	iload_1
+   18:	invokestatic	#4; //Method withStringBuilder:(I)Ljava/lang/String;
+   21:	pop
+   22:	lconst_0
+   23:	lstore_3
+   24:	lconst_0
+   25:	lstore	5
+   27:	lconst_0
+   28:	lstore	7
+   30:	iconst_0
+   31:	istore	9
+   33:	iload	9
+   35:	iload_2
+   36:	if_icmpge	160
+   39:	new	#5; //class java/util/Date
+   42:	dup
+   43:	invokespecial	#6; //Method java/util/Date."<init>":()V
+   46:	astore	10
+   48:	iload_1
+   49:	invokestatic	#2; //Method withStrings:(I)Ljava/lang/String;
+   52:	pop
+   53:	new	#5; //class java/util/Date
+   56:	dup
+   57:	invokespecial	#6; //Method java/util/Date."<init>":()V
+   60:	astore	11
+   62:	new	#5; //class java/util/Date
+   65:	dup
+   66:	invokespecial	#6; //Method java/util/Date."<init>":()V
+   69:	astore	12
+   71:	iload_1
+   72:	invokestatic	#3; //Method withStringBuffer:(I)Ljava/lang/String;
+   75:	pop
+   76:	new	#5; //class java/util/Date
+   79:	dup
+   80:	invokespecial	#6; //Method java/util/Date."<init>":()V
+   83:	astore	13
+   85:	new	#5; //class java/util/Date
+   88:	dup
+   89:	invokespecial	#6; //Method java/util/Date."<init>":()V
+   92:	astore	14
+   94:	iload_1
+   95:	invokestatic	#4; //Method withStringBuilder:(I)Ljava/lang/String;
+   98:	pop
+   99:	new	#5; //class java/util/Date
+   102:	dup
+   103:	invokespecial	#6; //Method java/util/Date."<init>":()V
+   106:	astore	15
+   108:	lload_3
+   109:	aload	11
+   111:	invokevirtual	#7; //Method java/util/Date.getTime:()J
+   114:	aload	10
+   116:	invokevirtual	#7; //Method java/util/Date.getTime:()J
+   119:	lsub
+   120:	ladd
+   121:	lstore_3
+   122:	lload	5
+   124:	aload	13
+   126:	invokevirtual	#7; //Method java/util/Date.getTime:()J
+   129:	aload	12
+   131:	invokevirtual	#7; //Method java/util/Date.getTime:()J
+   134:	lsub
+   135:	ladd
+   136:	lstore	5
+   138:	lload	7
+   140:	aload	15
+   142:	invokevirtual	#7; //Method java/util/Date.getTime:()J
+   145:	aload	14
+   147:	invokevirtual	#7; //Method java/util/Date.getTime:()J
+   150:	lsub
+   151:	ladd
+   152:	lstore	7
+   154:	iinc	9, 1
+   157:	goto	33
+   160:	getstatic	#8; //Field java/lang/System.out:Ljava/io/PrintStream;
+   163:	new	#9; //class java/lang/StringBuilder
+   166:	dup
+   167:	invokespecial	#10; //Method java/lang/StringBuilder."<init>":()V
+   170:	ldc	#11; //String withStrings: 
+   172:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   175:	lload_3
+   176:	invokevirtual	#13; //Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+   179:	ldc	#14; //String  vs withStringBuffer: 
+   181:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   184:	lload	5
+   186:	invokevirtual	#13; //Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+   189:	ldc	#15; //String  vs withStringBuilder: 
+   191:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   194:	lload	7
+   196:	invokevirtual	#13; //Method java/lang/StringBuilder.append:(J)Ljava/lang/StringBuilder;
+   199:	invokevirtual	#16; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   202:	invokevirtual	#17; //Method java/io/PrintStream.println:(Ljava/lang/String;)V
+   205:	return
+  LineNumberTable: 
+   line 14: 0
+   line 15: 4
+   line 16: 7
+   line 17: 12
+   line 18: 17
+   line 19: 22
+   line 20: 24
+   line 21: 27
+   line 22: 30
+   line 23: 39
+   line 24: 48
+   line 25: 53
+   line 26: 62
+   line 27: 71
+   line 28: 76
+   line 29: 85
+   line 30: 94
+   line 31: 99
+   line 32: 108
+   line 33: 122
+   line 34: 138
+   line 22: 154
+   line 36: 160
+   line 38: 205
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   48      106      10    d1       Ljava/util/Date;
+   62      92      11    d2       Ljava/util/Date;
+   71      83      12    d3       Ljava/util/Date;
+   85      69      13    d4       Ljava/util/Date;
+   94      60      14    d5       Ljava/util/Date;
+   108      46      15    d6       Ljava/util/Date;
+   33      127      9    i       I
+   0      206      0    args       [Ljava/lang/String;
+   4      202      1    count       I
+   7      199      2    total       I
+   24      182      3    withStrings       J
+   27      179      5    withStringBuffer       J
+   30      176      7    withStringBuilder       J
+
+  StackMapTable: number_of_entries = 2
+   frame_type = 255 /* full_frame */
+     offset_delta = 33
+     locals = [ class "[Ljava/lang/String;", int, int, long, long, long, int ]
+     stack = []
+   frame_type = 250 /* chop */
+     offset_delta = 126
+
+
+public static java.lang.String withStrings(int);
+  Code:
+   Stack=2, Locals=4, Args_size=1
+   0:	aconst_null
+   1:	astore_1
+   2:	ldc	#18; //String temp
+   4:	astore_2
+   5:	iconst_0
+   6:	istore_3
+   7:	iload_3
+   8:	iload_0
+   9:	if_icmpge	37
+   12:	new	#9; //class java/lang/StringBuilder
+   15:	dup
+   16:	invokespecial	#10; //Method java/lang/StringBuilder."<init>":()V
+   19:	aload_1
+   20:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   23:	aload_2
+   24:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   27:	invokevirtual	#16; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   30:	astore_1
+   31:	iinc	3, 1
+   34:	goto	7
+   37:	aload_1
+   38:	areturn
+  LineNumberTable: 
+   line 41: 0
+   line 42: 2
+   line 43: 5
+   line 44: 12
+   line 43: 31
+   line 46: 37
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   7      30      3    i       I
+   0      39      0    count       I
+   2      37      1    s       Ljava/lang/String;
+   5      34      2    temp       Ljava/lang/String;
+
+  StackMapTable: number_of_entries = 2
+   frame_type = 254 /* append */
+     offset_delta = 7
+     locals = [ class java/lang/String, class java/lang/String, int ]
+   frame_type = 250 /* chop */
+     offset_delta = 29
+
+
+public static java.lang.String withStringBuffer(int);
+  Code:
+   Stack=2, Locals=4, Args_size=1
+   0:	aconst_null
+   1:	astore_1
+   2:	ldc	#18; //String temp
+   4:	astore_2
+   5:	iconst_0
+   6:	istore_3
+   7:	iload_3
+   8:	iload_0
+   9:	if_icmpge	43
+   12:	new	#19; //class java/lang/StringBuffer
+   15:	dup
+   16:	invokespecial	#20; //Method java/lang/StringBuffer."<init>":()V
+   19:	astore_1
+   20:	aload_1
+   21:	aload_2
+   22:	invokevirtual	#21; //Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   25:	pop
+   26:	aload_1
+   27:	aload_2
+   28:	invokevirtual	#21; //Method java/lang/StringBuffer.append:(Ljava/lang/String;)Ljava/lang/StringBuffer;
+   31:	pop
+   32:	aload_1
+   33:	invokevirtual	#22; //Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+   36:	pop
+   37:	iinc	3, 1
+   40:	goto	7
+   43:	aload_1
+   44:	invokevirtual	#22; //Method java/lang/StringBuffer.toString:()Ljava/lang/String;
+   47:	areturn
+  LineNumberTable: 
+   line 50: 0
+   line 51: 2
+   line 52: 5
+   line 53: 12
+   line 54: 20
+   line 55: 26
+   line 56: 32
+   line 52: 37
+   line 58: 43
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   7      36      3    i       I
+   0      48      0    count       I
+   2      46      1    sb       Ljava/lang/StringBuffer;
+   5      43      2    temp       Ljava/lang/String;
+
+  StackMapTable: number_of_entries = 2
+   frame_type = 254 /* append */
+     offset_delta = 7
+     locals = [ class java/lang/StringBuffer, class java/lang/String, int ]
+   frame_type = 250 /* chop */
+     offset_delta = 35
+
+
+public static java.lang.String withStringBuilder(int);
+  Code:
+   Stack=2, Locals=4, Args_size=1
+   0:	aconst_null
+   1:	astore_1
+   2:	ldc	#18; //String temp
+   4:	astore_2
+   5:	iconst_0
+   6:	istore_3
+   7:	iload_3
+   8:	iload_0
+   9:	if_icmpge	43
+   12:	new	#9; //class java/lang/StringBuilder
+   15:	dup
+   16:	invokespecial	#10; //Method java/lang/StringBuilder."<init>":()V
+   19:	astore_1
+   20:	aload_1
+   21:	aload_2
+   22:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   25:	pop
+   26:	aload_1
+   27:	aload_2
+   28:	invokevirtual	#12; //Method java/lang/StringBuilder.append:(Ljava/lang/String;)Ljava/lang/StringBuilder;
+   31:	pop
+   32:	aload_1
+   33:	invokevirtual	#16; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   36:	pop
+   37:	iinc	3, 1
+   40:	goto	7
+   43:	aload_1
+   44:	invokevirtual	#16; //Method java/lang/StringBuilder.toString:()Ljava/lang/String;
+   47:	areturn
+  LineNumberTable: 
+   line 62: 0
+   line 63: 2
+   line 64: 5
+   line 65: 12
+   line 66: 20
+   line 67: 26
+   line 68: 32
+   line 64: 37
+   line 70: 43
+
+  LocalVariableTable: 
+   Start  Length  Slot  Name   Signature
+   7      36      3    i       I
+   0      48      0    count       I
+   2      46      1    sb       Ljava/lang/StringBuilder;
+   5      43      2    temp       Ljava/lang/String;
+
+  StackMapTable: number_of_entries = 2
+   frame_type = 254 /* append */
+     offset_delta = 7
+     locals = [ class java/lang/StringBuilder, class java/lang/String, int ]
+   frame_type = 250 /* chop */
+     offset_delta = 35
+
+
+}
