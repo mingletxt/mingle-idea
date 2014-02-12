@@ -1,11 +1,12 @@
 package com.mingle.chat;
 
-/**
+/*
  * User: mingle
  * Date: 13-1-22
  * Time: 下午8:07
  * desc
  */
+
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -18,23 +19,25 @@ import java.util.List;
 
 public class HeartServer {
 
-    /*
-      * 成员变量闪亮登场
-      */
+      /* 成员变量闪亮登场 */
+
+
     List<ClientThread> clients = new ArrayList<ClientThread>();
 
-    /**
+    /*
      * 这系入口啊，向这里看齐...
      *
      * @param args
      */
+
     public static void main(String[] args) {
         new HeartServer().start();
     }
 
-    /**
-     * 启动服务器中...
-     */
+/*
+     * 启动服务器中...*/
+
+
     public void start() {
         try {
             boolean iConnect = false;
@@ -55,22 +58,24 @@ public class HeartServer {
         }
     }
 
-    /**
-     * 给每个客户端留个家（客户端的进程）
-     */
+/*
+     * 给每个客户端留个家（客户端的进程）*/
+
+
     class ClientThread implements Runnable {
-        /*
-           * 成员变量又来啦...
-           */
+           /* 成员变量又来啦...*/
+
+
         private Socket s;
         private DataInputStream dis;
         private DataOutputStream dos;
         private String str;
         private boolean iConnect = false;
 
-        /**
-         * 小构一下
-         */
+/*
+         * 小构一下*/
+
+
         ClientThread(Socket s) {
             this.s = s;
             iConnect = true;
@@ -97,10 +102,11 @@ public class HeartServer {
 
         }
 
-        /**
+/*
          * 转发消息，我做主...
-         * 将送至服务器的消息发送给每个连接到的客户端
-         */
+         * 将送至服务器的消息发送给每个连接到的客户端*/
+
+
         public void sendMsg(String str) {
             try {
                 System.out.println("创建输出管道！");

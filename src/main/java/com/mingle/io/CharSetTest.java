@@ -6,12 +6,13 @@ import java.nio.ByteBuffer;
 import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 
-/**
+/*
  * User: mingle
  * Date: 12-11-27
  * Time: 上午12:15
  * desc
- */
+*/
+
 public class CharSetTest {
     public static void main(String args[]) throws Exception {
         String file = "stream.txt";
