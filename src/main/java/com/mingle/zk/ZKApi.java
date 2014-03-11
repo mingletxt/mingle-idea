@@ -20,7 +20,6 @@ public class ZKApi implements Watcher {
     private static final String CONNECTION_STRING = "10.232.6.42:2181";
     private static final String ZK_PATH = "/feidu";
     private ZooKeeper zk = null;
-
     private CountDownLatch connectedSemaphore = new CountDownLatch( 1 );
 
     /**
@@ -137,23 +136,25 @@ public class ZKApi implements Watcher {
         }
     }
 
-    public static void main( String[] args ) {
+    public static void main( String[] args ) throws InterruptedException {
 
         ZKApi sample = new ZKApi();
         sample.createConnection( CONNECTION_STRING, SESSION_TIMEOUT );
         if ( sample.createPath( ZK_PATH, "我是节点初始内容" ) ) {
             System.out.println();
-            System.out.println( "数据内容: " + sample.readData( ZK_PATH ) + "\n" );
-            sample.writeData( ZK_PATH, "更新后的数据" );
-            System.out.println( "数据内容: " + sample.readData( ZK_PATH ) + "\n" );
-            sample.deleteNode( ZK_PATH );
+            System.out.println("数据内容: " + sample.readData(ZK_PATH) + "\n");
+            sample.writeData(ZK_PATH, "更新后的数据");
+            System.out.println("数据内容: " + sample.readData(ZK_PATH) + "\n");
+            sample.deleteNode(ZK_PATH);
+            System.out.println( "数据内容: " + sample.readData( "/hbase" ) + "\n" );
         }
-
+        Thread.sleep(1000000000L);
         sample.releaseConnection();
     }
 
+
     /**
-     * 收到来自Server的Watcher通知后的处理。
+     * 收到来自Server的Watcher通知后的处理
      */
     @Override
     public void process( WatchedEvent event ) {
