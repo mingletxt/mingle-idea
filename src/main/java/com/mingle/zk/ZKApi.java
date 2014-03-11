@@ -154,7 +154,7 @@ public class ZKApi implements Watcher {
 
 
     /**
-     * 收到来自Server的Watcher通知后的处理
+     * 收到来自Server的Watcher通知后的处理动作
      */
     @Override
     public void process( WatchedEvent event ) {
