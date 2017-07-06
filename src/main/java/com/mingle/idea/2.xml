@@ -1,0 +1,27 @@
+<select id="listBySearch" resultType="com.youzan.sam.po.StaffPO">
+    SELECT
+    <include refid="staffColumns"/>
+    FROM <include refid="tableStaff"/>
+    <where>
+        1=1
+        <![CDATA[ AND `status` >= 0 ]]>
+        <if test="staff.kdtId != null">
+            AND `kdt_id`=#{staff.kdtId}
+        </if>
+        <if test="staff.adminIds!=null">
+            AND `admin_id` IN
+            <foreach item="i" collection="staff.adminIds" open="(" close=")" separator=",">
+                #{i}
+            </foreach>
+        </if>
+        <if test="staff.searchContent != null">
+            AND ( `name` like CONCAT('%',#{staff.searchContent},'%') or  `link_phone` like CONCAT('%',#{staff.searchContent},'%') )
+        </if>
+        <if test="order != null and order != ''">
+            order by #{order}
+        </if>
+        <if test="order == null or order ==''">
+            order by `admin_id`
+        </if>
+    </where>
+</select>

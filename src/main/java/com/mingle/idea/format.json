@@ -1,0 +1,47 @@
+[
+  {
+    "adminId": 176356718,
+    "kdtId": 18617257,
+    "shopId": 21111932,
+    "staffId": 554225,
+    "account": "18938688892",
+    "name": "王攀",
+    "linkPhone": "18938688892",
+    "operator": "0",
+    "operatorId": 0,
+    "createTime": 1485226454000,
+    "updateTime": 1492334738000,
+    "status": "ON",
+    "identity": "SUPER_ADMIN"
+  },
+  {
+    "adminId": 176356718,
+    "kdtId": 18900235,
+    "shopId": 20447337,
+    "staffId": 181436,
+    "account": "18938688892",
+    "name": "王攀hunterPan1",
+    "linkPhone": "18938688892",
+    "operator": "0",
+    "operatorId": 0,
+    "createTime": 1492410827000,
+    "updateTime": 1492410827000,
+    "status": "ON",
+    "identity": "SUPER_ADMIN"
+  },
+  {
+    "adminId": 176356718,
+    "kdtId": 63077,
+    "shopId": 0,
+    "staffId": 176356718,
+    "account": "+86-18938688892",
+    "name": "王攀hunterPan1",
+    "linkPhone": "+86-18938688892",
+    "operator": "+86-13515711996",
+    "operatorId": 6406550,
+    "createTime": 1492701600000,
+    "updateTime": 1492701600000,
+    "status": "ON",
+    "identity": "ADMIN"
+  }
+]

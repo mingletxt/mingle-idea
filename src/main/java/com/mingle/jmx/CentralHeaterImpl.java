@@ -28,7 +28,6 @@ public class CentralHeaterImpl extends StandardMBean implements CentralHeaterInf
         System.out.println("The heater is off. ");
     }
 
-    @Override
     public String printCurrentTemperature() {
         String printMsg = "Current temperature is:" + currentTemperature;
         System.out.println(printMsg);

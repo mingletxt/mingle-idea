@@ -1,3 +1,4 @@
+/*
 package com.mingle.zk;
 
 import java.io.IOException;
@@ -10,11 +11,13 @@ import org.apache.zookeeper.Watcher;
 import org.apache.zookeeper.Watcher.Event.KeeperState;
 import org.apache.zookeeper.ZooDefs.Ids;
 import org.apache.zookeeper.ZooKeeper;
+*/
 /**
  * User: mingle
  * Date: 14-2-24
  * Desc:
- */
+ *//*
+
 public class ZKApi implements Watcher {
     private static final int SESSION_TIMEOUT = 10000;
     private static final String CONNECTION_STRING = "10.232.6.42:2181";
@@ -22,11 +25,13 @@ public class ZKApi implements Watcher {
     private ZooKeeper zk = null;
     private CountDownLatch connectedSemaphore = new CountDownLatch( 1 );
 
-    /**
+    */
+/**
      * 创建ZK连接
      * @param connectString  ZK服务器地址列表
      * @param sessionTimeout   Session超时时间
-     */
+     *//*
+
     public void createConnection( String connectString, int sessionTimeout ) {
         this.releaseConnection();
         try {
@@ -41,9 +46,11 @@ public class ZKApi implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 关闭ZK连接
-     */
+     *//*
+
     public void releaseConnection() {
         if ( this.zk != null ) {
             try {
@@ -55,12 +62,14 @@ public class ZKApi implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      *  创建节点
      * @param path 节点path
      * @param data 初始数据内容
      * @return
-     */
+     *//*
+
     public boolean createPath( String path, String data ) {
         try {
             System.out.println( "节点创建成功, Path: "
@@ -79,11 +88,13 @@ public class ZKApi implements Watcher {
         return true;
     }
 
-    /**
+    */
+/**
      * 读取指定节点数据内容
      * @param path 节点path
      * @return
-     */
+     *//*
+
     public String readData( String path ) {
         try {
             System.out.println( "获取数据成功，path：" + path );
@@ -99,12 +110,14 @@ public class ZKApi implements Watcher {
         }
     }
 
-    /**
+    */
+/**
      * 更新指定节点数据内容
      * @param path 节点path
      * @param data  数据内容
      * @return
-     */
+     *//*
+
     public boolean writeData( String path, String data ) {
         try {
             System.out.println( "更新数据成功，path：" + path + ", stat: " +
@@ -119,10 +132,12 @@ public class ZKApi implements Watcher {
         return false;
     }
 
-    /**
+    */
+/**
      * 删除指定节点
      * @param path 节点path
-     */
+     *//*
+
     public void deleteNode( String path ) {
         try {
             this.zk.delete( path, -1 );
@@ -153,9 +168,11 @@ public class ZKApi implements Watcher {
     }
 
 
-    /**
+    */
+/**
      * 收到来自Server的Watcher通知后的处理动作
-     */
+     *//*
+
     @Override
     public void process( WatchedEvent event ) {
         System.out.println( "收到的事件通知：" + event.getState() +"\n"  );
@@ -165,3 +182,4 @@ public class ZKApi implements Watcher {
 
     }
 }
+*/

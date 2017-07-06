@@ -1,0 +1,28 @@
+<select id="list" parameterType="com.youzan.sam.po.StaffPO" resultType="com.youzan.sam.po.StaffPO">
+    SELECT
+    <include refid="staffColumns"/>
+    FROM <include refid="tableStaff"/>
+    <where>
+        1 = 1
+        <if test="staff.kdtId!=null">
+            and `kdt_id`=#{staff.kdtId}
+        </if>
+        <if test="staff.adminId!=null">
+            and `admin_id`=#{staff.adminId}
+        </if>
+        <if test="staff.status==null">
+            <![CDATA[ AND `status` >= 0 ]]>
+        </if>
+        <if test="staff.status!=null">
+            AND `status` = #{staff.status}
+        </if>
+        <if test="staff.identity==null">
+            AND `identity` != 4
+        </if>
+        AND `admin_id` IN
+        <foreach item="i" collection="staff.adminIds" open="(" close=")" separator=",">
+            #{i}
+        </foreach>
+        order by `update_time` DESC
+    </where>
+</select>

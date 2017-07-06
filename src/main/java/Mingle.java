@@ -5,6 +5,9 @@
  * desc
  */
 public class Mingle {
+    public void test() {
+        Mingle m = new Mingle();
+    }
     public static void main(String args[]) {
         System.out.println("a");
     }
