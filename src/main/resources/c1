@@ -1,0 +1,280 @@
+------------start------------
+method-->com.youzan.sz.portal.service.impl.SessionServiceImpl#loadSession([])
+elapse-->[430ms 100%]
+result-->{"yzAcc":"18927161773","role":"1","certStatus":"{\"enterpriseStatus\":1}","shopIcon":"http://img.yzcdn.cn/public_files/2016/05/13/8f9c442de8666f82abaf7dd71574e997.png","shopName":"零售特工队4","identity":"1","adminId":"142852612","staffName":"卓明","shopId":"20488798","bid":"18938611","aid":"2","staffId":"142852612"}
+
+	method-->com.youzan.sz.common.redis.JedisTemplate#hgetAll(["szsuperstore_user_session:142852612"])
+	elapse-->[7ms 2%]
+	result-->{}
+
+	method-->com.alibaba.dubbo.common.bytecode.proxy0#getByStaffByBidAdminId([18938611,20488798,142852612,"retail"])
+	elapse-->[159ms 37%]
+	result-->{"adminId":"142852612","bid":18938611,"identity":1,"name":"卓明","phone":"18927161773","shopInfo":[{"bid":18938611,"createTime":1496331294000,"role":1,"shop":{"address":"白石巷92号","aid":2,"area":"茂南区","bid":18938611,"businessScope":"SMJD","cetificateType":0,"city":"茂名市","createTime":1493274516000,"createrAccount":"13967190774","expireTime":1527906966000,"groupType":0,"kdtId":20489775,"name":"零售特工队4","onlineShopName":"零售特工队4","phone":"13967190774","province":"广东省","sellerId":3134297604,"shopId":20488798,"status":"OPENING","updateTime":1501665242000,"url":"http://img.yzcdn.cn/public_files/2016/05/13/8f9c442de8666f82abaf7dd71574e997.png"},"shopId":20488798,"staffId":142852612,"status":0,"updateTime":1501661726000}],"staffId":142852612,"yzAccount":"18927161773"}
+
+	method-->com.alibaba.dubbo.common.bytecode.proxy2#getShop([{"bid":18938611,"kdtId":18938611,"shopId":20488798}])
+	elapse-->[50ms 12%]
+	result-->{"address":"白石巷92号","aid":2,"area":"茂南区","bid":18938611,"businessScope":"SMJD","cetificateType":0,"city":"茂名市","createTime":1493274516000,"createrAccount":"13967190774","expireTime":1527906966000,"groupType":0,"kdtId":20489775,"name":"零售特工队4","onlineShopName":"零售特工队4","phone":"13967190774","province":"广东省","sellerId":3134297604,"shopId":20488798,"status":"OPENING","updateTime":1501665242000,"url":"http://img.yzcdn.cn/public_files/2016/05/13/8f9c442de8666f82abaf7dd71574e997.png"}
+
+	method-->com.alibaba.dubbo.common.bytecode.proxy3#getShopCertStatus([18938611,20488798])
+	elapse-->[27ms 6%]
+	result-->{"code":10000,"data":{"enterpriseStatus":1},"message":"正确","succ":true}
+
+	method-->com.alibaba.dubbo.common.bytecode.proxy1#findOne([{"deviceId":"null","status":0,"type":0}])
+	elapse-->[67ms 16%]
+	result-->{"code":10000,"message":"正确","succ":true}
+
+------------end------------
+2017-08-04 22:31:26.026 [DubboServerHandler-10.10.17.105:17184-thread-20] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.DistributedCallTools.DistributedCoreFilter.invoke:251 - p:||556|true
+2017-08-04 22:31:26.065 [DubboServerHandler-10.10.17.105:17184-thread-21] WARN  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.portal.service.impl.SessionServiceImpl.updateShopBind:553 - device type:null not support
+2017-08-04 22:31:26.070 [DubboServerHandler-10.10.17.105:17184-thread-21] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.portal.service.impl.SessionServiceImpl#updateShopBind([])
+elapse-->[29ms 100%]
+result-->{"code":99999,"message":"处理失败,请稍后重试","succ":false}
+
+------------end------------
+2017-08-04 22:31:26.074 [DubboServerHandler-10.10.17.105:17184-thread-21] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.DistributedCallTools.DistributedCoreFilter.invoke:251 - p:||34|true
+2017-08-04 22:31:26.131 [DubboServerHandler-10.10.17.105:17184-thread-22] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.DistributedCallTools.DistributedCoreFilter.invoke:334 - c:|findOne|38|true
+2017-08-04 22:31:26.133 [DubboServerHandler-10.10.17.105:17184-thread-22] WARN  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.portal.service.impl.SessionServiceImpl.doAddDevice:383 - currentDevice not exists,deviceId:null
+2017-08-04 22:31:26.134 [DubboServerHandler-10.10.17.105:17184-thread-22] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.portal.service.impl.SessionServiceImpl#addDevice(["null"])
+elapse-->[44ms 100%]
+result-->{"yzAcc":"18927161773","role":"1","certStatus":"{\"enterpriseStatus\":1}","shopName":"零售特工队4","shopIcon":"http://img.yzcdn.cn/public_files/2016/05/13/8f9c442de8666f82abaf7dd71574e997.png","identity":"1","staffName":"卓明","adminId":"142852612","shopId":"20488798","bid":"18938611","aid":"2","staffId":"142852612"}
+
+	method-->com.youzan.sz.common.redis.JedisTemplate#hgetAll(["szsuperstore_user_session:142852612"])
+	elapse-->[4ms 9%]
+	result-->same length as pre log
+
+	method-->com.alibaba.dubbo.common.bytecode.proxy1#findOne([{"deviceId":"null","status":0,"type":0}])
+	elapse-->[40ms 91%]
+	result-->{"code":10000,"message":"正确","succ":true}
+
+------------end------------
+2017-08-04 22:31:26.136 [DubboServerHandler-10.10.17.105:17184-thread-22] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.DistributedCallTools.DistributedCoreFilter.invoke:251 - p:||48|true
+2017-08-04 22:31:26.288 [DubboServerHandler-10.10.17.105:17184-thread-23] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.portal.service.impl.AuthServiceImpl.clearStaffPermCache:212 - start del user permission cache | bid (18938611),shopId (20488798),staffId (142852612)
+2017-08-04 22:31:26.300 [DubboServerHandler-10.10.17.105:17184-thread-23] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sam.SamClient.clearStaffPerms:624 - clear staff Perms parameters=({"adminId":142852612,"kdtId":18938611,"biz":null,"operator":null,"operatorId":null,"roleDTOList":null,"istUpdate":true})
+2017-08-04 22:31:26.343 [DubboServerHandler-10.10.17.105:17184-thread-23] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.DistributedCallTools.DistributedCoreFilter.invoke:334 - c:|clearStaffPermCache|19|true
+2017-08-04 22:31:26.345 [DubboServerHandler-10.10.17.105:17184-thread-23] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sam.SamClient.clearStaffPerms:631 - clear staff perm cache,parameter=({"adminId":142852612,"kdtId":18938611,"biz":null,"operator":null,"operatorId":null,"roleDTOList":null,"istUpdate":true}) result=({"code":10000,"message":"正确","data":false})
+2017-08-04 22:31:26.372 [DubboServerHandler-10.10.17.105:17184-thread-23] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.portal.service.impl.AuthServiceImpl#clearStaffPermCache([{"adminId":142852612,"aid":1,"bid":18938611,"effect":"allow","shopId":20488798,"staffId":142852612}])
+elapse-->[84ms 100%]
+result-->{"code":10000,"data":false,"message":"正确","succ":true}
+
+	method-->com.youzan.sam.SamClient#clearStaffPerms([{"adminId":142852612,"istUpdate":true,"kdtId":18938611}])
+	elapse-->[54ms 64%]
+	result-->{"code":10000,"data":false,"message":"正确","succ":true}
+
+		method-->com.alibaba.dubbo.common.bytecode.proxy10#clearStaffPermCache([{"adminId":142852612,"istUpdate":true,"kdtId":18938611}])
+		elapse-->[41ms 49%]
+		result-->{"code":10000,"data":false,"message":"正确","succ":true}
+
+------------end------------
+2017-08-04 22:31:26.380 [DubboServerHandler-10.10.17.105:17184-thread-23] INFO  cashier-oa-biz-0a0a5c3b-1501857085215-100035 com.youzan.sz.DistributedCallTools.DistributedCoreFilter.invoke:251 - p:||119|true
+2017-08-04 22:31:34.656 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.extra.nsq.event.NsqEventConsumer.process:87 - start handle message :i\
+2017-08-04 22:31:34.694 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.extra.nsq.event.NsqEventConsumer.doLoad:133 - parse result:{"userId":425723587,"eventType":"PASSWORD_CHANGE"}
+2017-08-04 22:31:34.721 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.extra.nsq.event.NsqEventConsumer.doLoad:138 - start handle message,reset  next consume time:60 to 0,message:{"timestamp":"FNerEgYPym8=","attempts":"AAE=","messageID":"AAAAAAADaVwAAAAAAAAAAA==","messageBody":"eyJldmVudFR5cGUiOiJQQVNTV09SRF9DSEFOR0UiLCJ1c2VySWQiOjQyNTcyMzU4N30=","address":{"host":"10.200.181.98","port":4150},"connectionID":1,"datetime":1501857094650,"readableAttempts":1,"readableContent":"{\"eventType\":\"PASSWORD_CHANGE\",\"userId\":425723587}","nextConsumingInSecond":60}
+2017-08-04 22:31:34.802 [Finalizer] WARN   com.alibaba.dubbo.config.AbstractConfig.warn:54 -  [Nova] ReferenceConfig(null) is not DESTROYED when FINALIZE, nova version: 3.0.7-RELEASE, current host: 10.10.17.105
+2017-08-04 22:31:34.819 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.nsq.AbstractNSQHandler#preHandle([{"eventType":"PASSWORD_CHANGE","userId":425723587}])
+elapse-->[82ms 100%]
+result-->{"eventType":"PASSWORD_CHANGE","userId":425723587}
+
+------------end------------
+2017-08-04 22:31:34.827 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.extra.nsq.event.NsqEventHandler.doHandle:30 - receive a nsq msg:{"userId":425723587,"eventType":"PASSWORD_CHANGE"}
+2017-08-04 22:31:34.853 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.initDeleteConfig:404 - delete type is empty ,delete all types,opAdminId:1,adminId:425723587
+2017-08-04 22:31:34.878 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.deleteTicket:417 - start delete ticket ,params:{"deleteType":"OTHER","opAdminId":1,"adminId":425723587,"deviceTypes":["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"],"needPushMsg":false}
+2017-08-04 22:31:34.879 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.isBeauty:571 - not find aid in context,just skip
+2017-08-04 22:31:34.899 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.deleteTicket:435 - user(1) delete user(425723587) deviceType:["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"] ticket,result:0
+2017-08-04 22:31:34.900 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.SessionServiceImpl.isBeauty:126 - not find aid in context,just skip
+2017-08-04 22:31:34.902 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.SessionServiceImpl.deleteSession:148 - delete szsuperstore_user_session:425723587' session cache result:false
+2017-08-04 22:31:34.902 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.deleteWithoutSession:284 - delete session result:true,params:{"deleteType":"OTHER","opAdminId":1,"adminId":425723587,"deviceTypes":["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"],"needPushMsg":false}
+2017-08-04 22:31:34.919 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.deleteWithoutSession:290 - delete shop bind result:false,params:{"deleteType":"OTHER","opAdminId":1,"adminId":425723587,"deviceTypes":["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"],"needPushMsg":false}
+2017-08-04 22:31:34.920 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.getAid:448 - #delete# not find aid,just use  aid of free checkout
+2017-08-04 22:31:34.930 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.portal.extra.nsq.event.NsqEventHandler#doHandle([{"eventType":"PASSWORD_CHANGE","userId":425723587}])
+elapse-->[106ms 100%]
+result-->{"eventType":"PASSWORD_CHANGE","userId":425723587}
+
+	method-->com.youzan.sz.portal.service.impl.TicketServiceImpl#deleteWithoutSession([{"adminId":425723587,"deleteType":"OTHER","deviceTypes":["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"],"needPushMsg":false,"opAdminId":1}])
+	elapse-->[95ms 90%]
+	result-->{"code":10000,"data":{"count":0,"needPushMsg":false},"message":"正确","succ":true}
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["1"]])
+		elapse-->[6ms 6%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["10"]])
+		elapse-->[2ms 2%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["11"]])
+		elapse-->[2ms 2%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["2"]])
+		elapse-->[2ms 2%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["20"]])
+		elapse-->[1ms 1%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["3"]])
+		elapse-->[2ms 2%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["30"]])
+		elapse-->[1ms 1%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["4"]])
+		elapse-->[1ms 1%]
+		result-->0
+
+		method-->com.youzan.sz.common.redis.JedisTemplate#hdel(["szsuperstore_user_ticket:425723587",["1000"]])
+		elapse-->[2ms 2%]
+		result-->0
+
+		method-->com.youzan.sz.portal.service.impl.SessionServiceImpl#deleteSession([{"adminId":425723587,"aid":1,"deleteType":"OTHER","deviceTypes":["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"],"needPushMsg":false,"opAdminId":1}])
+		elapse-->[2ms 2%]
+		result-->{"code":10000,"data":false,"message":"正确","succ":true}
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_user_session:425723587"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+		method-->com.youzan.sz.portal.service.impl.SessionServiceImpl#deleteBind([{"adminId":425723587,"aid":1,"deleteType":"OTHER","deviceTypes":["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"],"needPushMsg":false,"opAdminId":1}])
+		elapse-->[16ms 15%]
+		result-->{"code":10000,"data":false,"message":"正确","succ":true}
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:1"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:1:21"]])
+			elapse-->[2ms 2%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:10"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:10:21"]])
+			elapse-->[2ms 2%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:11"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:11:21"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:2"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:2:21"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:20"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:20:21"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:3"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:3:21"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:30"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:30:21"]])
+			elapse-->[1ms 1%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:4"]])
+			elapse-->[2ms 2%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:4:21"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:1000"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+			method-->com.youzan.sz.common.redis.JedisTemplate#del([["szsuperstore_portal_shop_bind:425723587:1000:21"]])
+			elapse-->[0ms 0%]
+			result-->false
+
+------------end------------
+2017-08-04 22:31:34.928 [pool-2-thread-1] INFO   com.youzan.sz.portal.service.impl.TicketServiceImpl.pushLogoutMsg:460 - delete need push msg is false ,just skip push logout msg,params:{"aid":1,"deleteType":"OTHER","opAdminId":1,"adminId":425723587,"deviceTypes":["POS","ANDROID","APAD","IPAD","IPHONE","WEB","WEB_H5","OTHER","ALL"],"needPushMsg":false}
+2017-08-04 22:31:34.939 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.nsq.AbstractNSQHandler#postHandle([{"eventType":"PASSWORD_CHANGE","userId":425723587}])
+elapse-->[0ms 100%%]
+result-->{"eventType":"PASSWORD_CHANGE","userId":425723587}
+
+------------end------------
+2017-08-04 22:31:34.943 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.nsq.AroundHandler#preHandle([{"eventType":"PASSWORD_CHANGE","userId":425723587}])
+elapse-->[3ms 100%]
+result-->{"eventType":"PASSWORD_CHANGE","userId":425723587}
+
+------------end------------
+2017-08-04 22:31:34.950 [pool-2-thread-1] INFO  store-portal-0a0a1169-1501857094938-100016 com.youzan.sz.DistributedCallTools.DistributedCoreFilter.invoke:334 - c:|getDeviceToken|12|true
+2017-08-04 22:31:34.953 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.processor.SidProcessorImpl.doHandle:251 - delete sid cache ,adminId:425723587 result:false
+2017-08-04 22:31:34.954 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.portal.processor.SidProcessorImpl#doHandle([{"eventType":"PASSWORD_CHANGE","userId":425723587}])
+elapse-->[10ms 100%]
+result-->{"eventType":"PASSWORD_CHANGE","userId":425723587}
+
+	method-->com.youzan.sz.common.redis.JedisTemplate#del([["sz_store_user_sid:425723587"]])
+	elapse-->[4ms 40%]
+	result-->false
+
+------------end------------
+2017-08-04 22:31:34.954 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.youzan.sz.nsq.AroundHandler#postHandle([{"eventType":"PASSWORD_CHANGE","userId":425723587}])
+elapse-->[0ms 100%%]
+result-->{"eventType":"PASSWORD_CHANGE","userId":425723587}
+
+------------end------------
+2017-08-04 22:31:34.958 [ConsumerImplV2-ClientBusiness-Pool-Thread-1] INFO   com.youzan.sz.portal.extra.nsq.event.NsqEventConsumer.process:95 - handle message end :i\,cost:302
+2017-08-04 22:31:34.965 [pool-2-thread-1] INFO  store-portal-0a0a1169-1501857094938-100016 com.youzan.sz.common.aspect.LogAspect.processResult:174 -
+------------start------------
+method-->com.alibaba.dubbo.common.bytecode.proxy1#getDeviceToken([{"adminId":425723587,"aid":1,"queryType":1}])
+elapse-->[13ms 100%]
+result-->{"code":10000,"message":"正确","succ":true}
+
+------------end------------
+2017-08-04 22:31:34.980 [pool-2-thread-1] INFO  store-portal-0a0a1169-1501857094938-100016 com.youzan.sz.portal.service.impl.TicketServiceImpl.getTokenList:531 - params:{"adminId":425723587,"aid":1,"queryType":1} query deviceToken list resp:{"code":10000,"message":"正确"}
+2017-08-04 22:31:34.980 [pool-2-thread-1] INFO  store-portal-0a0a1169-1501857094938-100016 com.youzan.sz.portal.service.impl.TicketServiceImpl.getTokenList:539 - token is empty,just skip push logout msg
+2017-08-04 22:31:34.989 [pool-2-thread-1] WARN  store-portal-0a0a1169-1501857094938-100016 com.youzan.sz.common.util.current.ExceptionThreadFactory.uncaughtException:50 - pool-2-thread-1,execute error
+com.youzan.sz.common.exceptions.BizException: 参数错误
+	at com.youzan.sz.DistributedCallTools.DistributeAttribute.getDeviceType(DistributeAttribute.java:88)
+	at com.youzan.sz.portal.service.impl.TicketServiceImpl.pushLogoutMsg(TicketServiceImpl.java:481)
+	at com.youzan.sz.portal.service.impl.TicketServiceImpl.lambda$deleteWithoutSession$6(TicketServiceImpl.java:298)
+	at com.youzan.sz.portal.service.impl.TicketServiceImpl$$Lambda$45/625169971.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

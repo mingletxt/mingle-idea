@@ -1,3208 +1,890 @@
-[
-  {
-    "biz": "retail",
-    "description": "概况",
-    "id": 1725,
-    "menuItemId": 100,
-    "perms": "{\"cashier\":[9]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1248,
-    "menuItemId": 101,
-    "perms": "{\"wsc\":[4359555014197248],\"cashier\":[-8935141660703064065,31],\"retail\":[0,224]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1208,
-    "menuItemId": 102,
-    "perms": "{\"wsc\":[7052637016462196854,6608],\"cashier\":[35030827008],\"retail\":[46]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1268,
-    "menuItemId": 103,
-    "perms": "{\"wsc\":[0,65970932547584],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1281,
-    "menuItemId": 104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1302,
-    "menuItemId": 105,
-    "perms": "{\"wsc\":[0,8113234728707948666],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "营销",
-    "id": 1365,
-    "menuItemId": 106,
-    "perms": "{\"wsc\":[0,0,60],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1348,
-    "menuItemId": 107,
-    "perms": "{\"wsc\":[8588588032],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1334,
-    "menuItemId": 108,
-    "perms": "{\"wsc\":[1152921504606847000,2048,3224661446092],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1727,
-    "menuItemId": 109,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1247,
-    "menuItemId": 101101,
-    "perms": "{\"cashier\":[12666373951979520]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1242,
-    "menuItemId": 101102,
-    "perms": "{\"cashier\":[288230376151711742]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1241,
-    "menuItemId": 101103,
-    "perms": "{\"cashier\":[36028797018963968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1236,
-    "menuItemId": 101104,
-    "perms": "{\"cashier\":[-9223372036854775808,1],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1232,
-    "menuItemId": 101105,
-    "perms": "{\"cashier\":[0,2]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1231,
-    "menuItemId": 101106,
-    "perms": "{\"cashier\":[0,28]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退货入库菜单对应permId{\"retail\":\"[0,224]\"}",
-    "id": 1230,
-    "menuItemId": 101107,
-    "perms": "{\"retail\":[0,224]}"
-  },
-  {
-    "biz": "retail",
-    "description": "库存同步菜单对应permId{\"cashier\":\"[9288674231451648]\"}",
-    "id": 1225,
-    "menuItemId": 101108,
-    "perms": "{\"cashier\":[9288674231451648]}"
-  },
-  {
-    "biz": "retail",
-    "description": "供应商菜单对应permId{\"cashier\":\"[3]\"}",
-    "id": 1224,
-    "menuItemId": 101109,
-    "perms": "{\"cashier\":[3]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品列表菜单对应permId{\"wsc\":\"[5488968204288]\"}",
-    "id": 1223,
-    "menuItemId": 101110,
-    "perms": "{\"wsc\":[5488968204288]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品分组菜单对应permId{\"wsc\":\"[131941395333120]\"}",
-    "id": 1219,
-    "menuItemId": 101111,
-    "perms": "{\"wsc\":[131941395333120],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品导入菜单对应permId{\"wsc\":\"[2251799813685248]\"}",
-    "id": 1217,
-    "menuItemId": 101112,
-    "perms": "{\"wsc\":[2251799813685248]}"
-  },
-  {
-    "biz": "retail",
-    "description": "分销商品菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1216,
-    "menuItemId": 101113,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品页模板菜单对应permId{\"wsc\":\"[1970324836974592]\"}",
-    "id": 1209,
-    "menuItemId": 101114,
-    "perms": "{\"wsc\":[1970324836974592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1207,
-    "menuItemId": 102101,
-    "perms": "{\"cashier\":[671088640],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1205,
-    "menuItemId": 102102,
-    "perms": "{\"cashier\":[34359738368],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1201,
-    "menuItemId": 102103,
-    "perms": "{\"retail\":[2]}"
-  },
-  {
-    "biz": "retail",
-    "description": "门店发货菜单对应permId{\"retail\":\"[46]\"}",
-    "id": 1200,
-    "menuItemId": 102104,
-    "perms": "{\"retail\":[46]}"
-  },
-  {
-    "biz": "retail",
-    "description": "订单概况菜单对应permId{\"wsc\":\"[9007199254740992]\"}",
-    "id": 1195,
-    "menuItemId": 102105,
-    "perms": "{\"wsc\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "订单列表菜单对应permId{\"wsc\":\"[126100789566373894]\"}",
-    "id": 1194,
-    "menuItemId": 102106,
-    "perms": "{\"wsc\":[126100789566373894],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "加星订单菜单对应permId{\"wsc\":\"[6917529027641081968]\"}",
-    "id": 1119,
-    "menuItemId": 102107,
-    "perms": "{\"wsc\":[6917529027641081968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "维权订单菜单对应permId{\"wsc\":\"[-1,80]\"}",
-    "id": 1170,
-    "menuItemId": 102108,
-    "perms": "{\"wsc\":[0,80],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "分销采购单菜单对应permId{\"wsc\":\"[-1,256]\"}",
-    "id": 1141,
-    "menuItemId": 102109,
-    "perms": "{\"wsc\":[0,256]}"
-  },
-  {
-    "biz": "retail",
-    "description": "批量发货菜单对应permId{\"wsc\":\"[-1,2048]\"}",
-    "id": 1140,
-    "menuItemId": 102110,
-    "perms": "{\"wsc\":[0,2048]}"
-  },
-  {
-    "biz": "retail",
-    "description": "批量退款菜单对应permId{\"wsc\":\"[-1,4096]\"}",
-    "id": 1139,
-    "menuItemId": 102111,
-    "perms": "{\"wsc\":[0,4096]}"
-  },
-  {
-    "biz": "retail",
-    "description": "评价管理菜单对应permId{\"wsc\":\"[-1,128]\"}",
-    "id": 1138,
-    "menuItemId": 102112,
-    "perms": "{\"wsc\":[0,128]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1714,
-    "menuItemId": 103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1267,
-    "menuItemId": 103102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1257,
-    "menuItemId": 103103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1256,
-    "menuItemId": 103104,
-    "perms": "{\"wsc\":[0,65970932547584],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1728,
-    "menuItemId": 103105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1729,
-    "menuItemId": 103106,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1730,
-    "menuItemId": 103107,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1280,
-    "menuItemId": 104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1278,
-    "menuItemId": 104102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1276,
-    "menuItemId": 104103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1274,
-    "menuItemId": 104104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1272,
-    "menuItemId": 104105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "卡券统计菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1270,
-    "menuItemId": 104106,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1301,
-    "menuItemId": 105101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1297,
-    "menuItemId": 105102,
-    "perms": "{\"wsc\":[0,6755399441055744]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1296,
-    "menuItemId": 105103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1293,
-    "menuItemId": 105104,
-    "perms": "{\"wsc\":[0,36028797018963970]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1292,
-    "menuItemId": 105105,
-    "perms": "{\"wsc\":[0,3458764513820540984],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "有赞币菜单对应permId{\"wsc\":\"[-1,4611686018427388000]\"}",
-    "id": 1283,
-    "menuItemId": 105106,
-    "perms": "{\"wsc\":[0,4611686018427388000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "邀请奖励菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1282,
-    "menuItemId": 105107,
-    "perms": "{\"wsc\":[0,0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发票管理菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1713,
-    "menuItemId": 105108,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1364,
-    "menuItemId": 106101,
-    "perms": "{\"wsc\":[0,0,60]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1363,
-    "menuItemId": 106102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "模板市场菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1356,
-    "menuItemId": 106103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "有赞API菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1354,
-    "menuItemId": 106104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "开放平台菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1350,
-    "menuItemId": 106105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "APP开店菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1349,
-    "menuItemId": 106106,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1347,
-    "menuItemId": 107101,
-    "perms": "{\"wsc\":[1024]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1346,
-    "menuItemId": 107102,
-    "perms": "{\"wsc\":[749568]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1345,
-    "menuItemId": 107103,
-    "perms": "{\"wsc\":[2097152],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "店铺导航菜单对应permId{\"wsc\":\"[4194304]\"}",
-    "id": 1343,
-    "menuItemId": 107104,
-    "perms": "{\"wsc\":[4194304],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "全店风格菜单对应permId{\"wsc\":\"[4294967296]\"}",
-    "id": 1341,
-    "menuItemId": 107105,
-    "perms": "{\"wsc\":[4294967296],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "公共广告菜单对应permId{\"wsc\":\"[8388608]\"}",
-    "id": 1339,
-    "menuItemId": 107106,
-    "perms": "{\"wsc\":[8388608],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "自定义模板菜单对应permId{\"wsc\":\"[251658240]\"}",
-    "id": 1337,
-    "menuItemId": 107107,
-    "perms": "{\"wsc\":[251658240]}"
-  },
-  {
-    "biz": "retail",
-    "description": "我的文件菜单对应permId{\"wsc\":\"[4026531840]\"}",
-    "id": 1336,
-    "menuItemId": 107108,
-    "perms": "{\"wsc\":[4026531840],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "收银设置菜单对应permId{\"wsc\":\"[-1,2048]\"}",
-    "id": 1333,
-    "menuItemId": 108101,
-    "perms": "{\"wsc\":[0,2048],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "地址管理菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1325,
-    "menuItemId": 108102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "其他设置菜单对应permId{\"wsc\":\"[1152921504606847000]\"}",
-    "id": 1322,
-    "menuItemId": 108103,
-    "perms": "{\"wsc\":[1152921504606847000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "订单设置菜单对应permId{\"wsc\":\"[-1,-1,3224661445836]\"}",
-    "id": 1320,
-    "menuItemId": 108104,
-    "perms": "{\"wsc\":[0,0,3224661445836],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "支付/交易菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1312,
-    "menuItemId": 108105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "消费保障菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1311,
-    "menuItemId": 108106,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "通用设置菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1310,
-    "menuItemId": 108107,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "店铺信息菜单对应permId{\"wsc\":\"[-1,-1,256]\"}",
-    "id": 1309,
-    "menuItemId": 108108,
-    "perms": "{\"wsc\":[0,0,256],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "员工管理菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1305,
-    "menuItemId": 108109,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "服务协议菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1304,
-    "menuItemId": 108110,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "邀请奖励菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1303,
-    "menuItemId": 108111,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "全部商品菜单对应permId{\"cashier\":\"[12666373951979520]\"}",
-    "id": 1246,
-    "menuItemId": 101101101,
-    "perms": "{\"cashier\":[12666373951979520]}"
-  },
-  {
-    "biz": "retail",
-    "description": "零售库存商品菜单对应permId{\"cashier\":\"[12666373951979520]\"}",
-    "id": 1245,
-    "menuItemId": 101101102,
-    "perms": "{\"cashier\":[12666373951979520]}"
-  },
-  {
-    "biz": "retail",
-    "description": "停售商品菜单对应permId{\"cashier\":\"[12666373951979520]\"}",
-    "id": 1244,
-    "menuItemId": 101101103,
-    "perms": "{\"cashier\":[12666373951979520]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发到网店商品菜单对应permId{\"cashier\":\"[12666373951979520]\"}",
-    "id": 1243,
-    "menuItemId": 101101104,
-    "perms": "{\"cashier\":[12666373951979520]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看分类菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 819,
-    "menuItemId": 101102101,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增分类菜单对应permId{\"cashier\":\"[144115188075855870]\"}",
-    "id": 820,
-    "menuItemId": 101102102,
-    "perms": "{\"cashier\":[144115188075855870]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑分类菜单对应permId{\"cashier\":\"[144115188075855870]\"}",
-    "id": 821,
-    "menuItemId": 101102103,
-    "perms": "{\"cashier\":[144115188075855870]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除分类菜单对应permId{\"cashier\":\"[288230376151711740]\"}",
-    "id": 822,
-    "menuItemId": 101102104,
-    "perms": "{\"cashier\":[288230376151711740]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按商品查看菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 1240,
-    "menuItemId": 101103101,
-    "perms": "{\"cashier\":[36028797018963968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按规格查看菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 1238,
-    "menuItemId": 101103102,
-    "perms": "{\"cashier\":[36028797018963968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "进行盘点菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1235,
-    "menuItemId": 101104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "历史盘点菜单对应permId{\"cashier\":\"[-1,1]\"}",
-    "id": 1233,
-    "menuItemId": 101104102,
-    "perms": "{\"cashier\":[-9223372036854775808,1]}"
-  },
-  {
-    "biz": "retail",
-    "description": "设置菜单对应permId{\"cashier\":\"[-1,2]\"}",
-    "id": 830,
-    "menuItemId": 101105101,
-    "perms": "{\"cashier\":[0,2]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新建入库单菜单对应permId{\"cashier\":\"[-1,8]\"}",
-    "id": 831,
-    "menuItemId": 101106101,
-    "perms": "{\"cashier\":[0,8]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按照分类筛选菜单对应permId{\"cashier\":\"[-1,4]\"}",
-    "id": 832,
-    "menuItemId": 101106102,
-    "perms": "{\"cashier\":[0,4]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[-1,4]\"}",
-    "id": 833,
-    "menuItemId": 101106103,
-    "perms": "{\"cashier\":[0,4]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"cashier\":\"[-1,16]\"}",
-    "id": 834,
-    "menuItemId": 101106104,
-    "perms": "{\"cashier\":[0,16]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新建入库单菜单对应permId{\"retail\":\"[0,32]\"}",
-    "id": 1229,
-    "menuItemId": 101107101,
-    "perms": "{\"retail\":[0,32]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按照分类筛选菜单对应permId{\"retail\":\"[0,64]\"}",
-    "id": 1228,
-    "menuItemId": 101107102,
-    "perms": "{\"retail\":[0,64]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"retail\":\"[0,64]\"}",
-    "id": 1227,
-    "menuItemId": 101107103,
-    "perms": "{\"retail\":[0,64]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0,128]\"}",
-    "id": 1226,
-    "menuItemId": 101107104,
-    "perms": "{\"retail\":[0,128]}"
-  },
-  {
-    "biz": "retail",
-    "description": "开启库存同步菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 835,
-    "menuItemId": 101108101,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按照分类筛选菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 836,
-    "menuItemId": 101108102,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 837,
-    "menuItemId": 101108103,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"cashier\":\"[1]\"}",
-    "id": 838,
-    "menuItemId": 101109101,
-    "perms": "{\"cashier\":[1]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"cashier\":\"[1]\"}",
-    "id": 839,
-    "menuItemId": 101109102,
-    "perms": "{\"cashier\":[1]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"cashier\":\"[2]\"}",
-    "id": 840,
-    "menuItemId": 101109103,
-    "perms": "{\"cashier\":[2]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"cashier\":\"[3]\"}",
-    "id": 841,
-    "menuItemId": 101109104,
-    "perms": "{\"cashier\":[3]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[3]\"}",
-    "id": 842,
-    "menuItemId": 101109105,
-    "perms": "{\"cashier\":[3]}"
-  },
-  {
-    "biz": "retail",
-    "description": "出售中菜单对应permId{\"wsc\":\"[5488968204288]\"}",
-    "id": 1222,
-    "menuItemId": 101110101,
-    "perms": "{\"wsc\":[5488968204288]}"
-  },
-  {
-    "biz": "retail",
-    "description": "已售罄菜单对应permId{\"wsc\":\"[5488968204288]\"}",
-    "id": 1221,
-    "menuItemId": 101110102,
-    "perms": "{\"wsc\":[5488968204288]}"
-  },
-  {
-    "biz": "retail",
-    "description": "仓库中菜单对应permId{\"wsc\":\"[5488968204288]\"}",
-    "id": 1220,
-    "menuItemId": 101110103,
-    "perms": "{\"wsc\":[5488968204288]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新建分组菜单对应permId{\"wsc\":\"[17592186044416]\"}",
-    "id": 870,
-    "menuItemId": 101111101,
-    "perms": "{\"wsc\":[17592186044416]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[35184372088832]\"}",
-    "id": 871,
-    "menuItemId": 101111102,
-    "perms": "{\"wsc\":[35184372088832]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[70368744177664]\"}",
-    "id": 872,
-    "menuItemId": 101111103,
-    "perms": "{\"wsc\":[70368744177664]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"wsc\":\"[8796093022208]\"}",
-    "id": 873,
-    "menuItemId": 101111104,
-    "perms": "{\"wsc\":[8796093022208]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看链接菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1218,
-    "menuItemId": 101111105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导入商品菜单对应permId{\"wsc\":\"[2251799813685248]\"}",
-    "id": 874,
-    "menuItemId": 101112101,
-    "perms": "{\"wsc\":[2251799813685248]}"
-  },
-  {
-    "biz": "retail",
-    "description": "分销分销品变更菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1215,
-    "menuItemId": 101113101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "分销市场菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1211,
-    "menuItemId": 101113102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "增加菜单对应permId{\"wsc\":\"[281474976710656]\"}",
-    "id": 875,
-    "menuItemId": 101114101,
-    "perms": "{\"wsc\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[562949953421312]\"}",
-    "id": 876,
-    "menuItemId": 101114102,
-    "perms": "{\"wsc\":[562949953421312]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[1125899906842624]\"}",
-    "id": 877,
-    "menuItemId": 101114103,
-    "perms": "{\"wsc\":[1125899906842624]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"cashier\":\"[134217728]\"}",
-    "id": 878,
-    "menuItemId": 102101101,
-    "perms": "{\"cashier\":[134217728]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"cashier\":\"[536870912]\"}",
-    "id": 879,
-    "menuItemId": 102101102,
-    "perms": "{\"cashier\":[536870912]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[536870912]\"}",
-    "id": 880,
-    "menuItemId": 102101103,
-    "perms": "{\"cashier\":[536870912]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"cashier\":\"[536870912]\"}",
-    "id": 881,
-    "menuItemId": 102101104,
-    "perms": "{\"cashier\":[536870912]}"
-  },
-  {
-    "biz": "retail",
-    "description": "打印菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1206,
-    "menuItemId": 102101105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1204,
-    "menuItemId": 102102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"cashier\":\"[34359738368]\"}",
-    "id": 882,
-    "menuItemId": 102102102,
-    "perms": "{\"cashier\":[34359738368]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[34359738368]\"}",
-    "id": 883,
-    "menuItemId": 102102103,
-    "perms": "{\"cashier\":[34359738368]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1203,
-    "menuItemId": 102102104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "打印菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1202,
-    "menuItemId": 102102105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[2]\"}",
-    "id": 884,
-    "menuItemId": 102103101,
-    "perms": "{\"retail\":[2]}"
-  },
-  {
-    "biz": "retail",
-    "description": "核销菜单对应permId{\"retail\":\"[2]\"}",
-    "id": 885,
-    "menuItemId": 102103102,
-    "perms": "{\"retail\":[2]}"
-  },
-  {
-    "biz": "retail",
-    "description": "待发货菜单对应permId{\"retail\":\"[10]\"}",
-    "id": 1199,
-    "menuItemId": 102104101,
-    "perms": "{\"retail\":[10]}"
-  },
-  {
-    "biz": "retail",
-    "description": "已发货菜单对应permId{\"retail\":\"[36]\"}",
-    "id": 1197,
-    "menuItemId": 102104102,
-    "perms": "{\"retail\":[36]}"
-  },
-  {
-    "biz": "retail",
-    "description": "撤回到网店发货菜单对应permId{\"retail\":\"[4]\"}",
-    "id": 1196,
-    "menuItemId": 102104103,
-    "perms": "{\"retail\":[4]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[9007199254740992]\"}",
-    "id": 891,
-    "menuItemId": 102105101,
-    "perms": "{\"wsc\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "全部订单菜单对应permId{\"wsc\":\"[126100789566373894]\"}",
-    "id": 1193,
-    "menuItemId": 102106101,
-    "perms": "{\"wsc\":[126100789566373894],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "同城送订单菜单对应permId{\"wsc\":\"[126100789566373894]\"}",
-    "id": 1191,
-    "menuItemId": 102106102,
-    "perms": "{\"wsc\":[126100789566373894],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "分销订单菜单对应permId{\"wsc\":\"[126100789566373894]\"}",
-    "id": 1373,
-    "menuItemId": 102106104,
-    "perms": "{\"wsc\":[126100789566373894],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "货到付款订单菜单对应permId{\"wsc\":\"[126100789566373894]\"}",
-    "id": 1372,
-    "menuItemId": 102106105,
-    "perms": "{\"wsc\":[126100789566373894],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "全部订单菜单对应permId{\"wsc\":\"[6917529027641081968]\"}",
-    "id": 1190,
-    "menuItemId": 102107101,
-    "perms": "{\"wsc\":[6917529027641081968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "同城送订单菜单对应permId{\"wsc\":\"[6917529027641081968]\"}",
-    "id": 1186,
-    "menuItemId": 102107102,
-    "perms": "{\"wsc\":[6917529027641081968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "自提订单菜单对应permId{\"wsc\":\"[6917529027641081968]\"}",
-    "id": 1182,
-    "menuItemId": 102107103,
-    "perms": "{\"wsc\":[6917529027641081968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "分销订单菜单对应permId{\"wsc\":\"[6917529027641081968]\"}",
-    "id": 1178,
-    "menuItemId": 102107104,
-    "perms": "{\"wsc\":[6917529027641081968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "货到付款订单菜单对应permId{\"wsc\":\"[6917529027641081968]\"}",
-    "id": 1174,
-    "menuItemId": 102107105,
-    "perms": "{\"wsc\":[6917529027641081968],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "全部订单菜单对应permId{\"wsc\":\"[-1,80]\"}",
-    "id": 1169,
-    "menuItemId": 102108101,
-    "perms": "{\"wsc\":[0,80],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "同城送订单菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1165,
-    "menuItemId": 102108102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "自提订单菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1159,
-    "menuItemId": 102108103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "分销订单菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1153,
-    "menuItemId": 102108104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "货到付款订单菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1147,
-    "menuItemId": 102108105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[-1,256]\"}",
-    "id": 924,
-    "menuItemId": 102109101,
-    "perms": "{\"wsc\":[0,256]}"
-  },
-  {
-    "biz": "retail",
-    "description": "操作菜单对应permId{\"wsc\":\"[-1,2048]\"}",
-    "id": 925,
-    "menuItemId": 102110101,
-    "perms": "{\"wsc\":[0,2048]}"
-  },
-  {
-    "biz": "retail",
-    "description": "操作菜单对应permId{\"wsc\":\"[-1,4096]\"}",
-    "id": 926,
-    "menuItemId": 102111101,
-    "perms": "{\"wsc\":[0,4096]}"
-  },
-  {
-    "biz": "retail",
-    "description": "回复菜单对应permId{\"wsc\":\"[-1,128]\"}",
-    "id": 927,
-    "menuItemId": 102112101,
-    "perms": "{\"wsc\":[0,128]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上门自提菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1136,
-    "menuItemId": 102113101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "同城配送菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1132,
-    "menuItemId": 102113102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "快递发货菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1128,
-    "menuItemId": 102113103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "交易设置菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1123,
-    "menuItemId": 102113104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "所有菜单对应permId{\"wsc\":\"[0]\"}",
-    "id": 1718,
-    "menuItemId": 103101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "客户管理菜单对应permId{\"wsc\":\"[-1,98304]\"}",
-    "id": 1266,
-    "menuItemId": 103102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "客户详情菜单对应permId{\"wsc\":\"[-1,786432]\"}",
-    "id": 1262,
-    "menuItemId": 103102102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导入记录菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1260,
-    "menuItemId": 103102103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "",
-    "id": 1731,
-    "menuItemId": 103103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "会员卡管理菜单对应permId{\"wsc\":\"[-1,234881024]\"}",
-    "id": 978,
-    "menuItemId": 103104101,
-    "perms": "{\"wsc\":[0,234881024]}"
-  },
-  {
-    "biz": "retail",
-    "description": "会员储值菜单对应permId{\"wsc\":\"[-1,65970697666560]\"}",
-    "id": 1254,
-    "menuItemId": 103104102,
-    "perms": "{\"wsc\":[0,65970697666560],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "领取记录菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1252,
-    "menuItemId": 103104103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退卡记录菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1250,
-    "menuItemId": 103104104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1279,
-    "menuItemId": 104101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1277,
-    "menuItemId": 104102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1275,
-    "menuItemId": 104103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1273,
-    "menuItemId": 104104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1271,
-    "menuItemId": 104105101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1269,
-    "menuItemId": 104106101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1300,
-    "menuItemId": 105101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "提现菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1299,
-    "menuItemId": 105101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "充值菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1298,
-    "menuItemId": 105101103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[-1,2251799813685248]\"}",
-    "id": 961,
-    "menuItemId": 105102101,
-    "perms": "{\"wsc\":[0,2251799813685248]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出报表菜单对应permId{\"wsc\":\"[-1,4503599627370496]\"}",
-    "id": 962,
-    "menuItemId": 105102102,
-    "perms": "{\"wsc\":[0,4503599627370496]}"
-  },
-  {
-    "biz": "retail",
-    "description": "账单汇总菜单对应permId{\"wsc\":\"[-1,9007199254740992]\"}",
-    "id": 963,
-    "menuItemId": 105103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "账单明细菜单对应permId{\"wsc\":\"[-1,18014398509481984]\"}",
-    "id": 964,
-    "menuItemId": 105103102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "订购菜单对应permId{\"wsc\":\"[-1,36028797018963970]\"}",
-    "id": 965,
-    "menuItemId": 105104101,
-    "perms": "{\"wsc\":[0,36028797018963970]}"
-  },
-  {
-    "biz": "retail",
-    "description": "我的服务菜单对应permId{\"wsc\":\"[-1,3458764513820540984]\"}",
-    "id": 1291,
-    "menuItemId": 105105101,
-    "perms": "{\"wsc\":[0,3458764513820540984],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "订购记录菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1289,
-    "menuItemId": 105105102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "我的礼包菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1287,
-    "menuItemId": 105105103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "增值权益菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1285,
-    "menuItemId": 105105104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[-1,4611686018427388000]\"}",
-    "id": 968,
-    "menuItemId": 105106101,
-    "perms": "{\"wsc\":[0,4611686018427388000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[-1,9223372036854776000]\"}",
-    "id": 969,
-    "menuItemId": 105107101,
-    "perms": "{\"wsc\":[0,0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[-1,-1,4]\"}",
-    "id": 970,
-    "menuItemId": 106101101,
-    "perms": "{\"wsc\":[0,0,4]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[-1,-1,8]\"}",
-    "id": 971,
-    "menuItemId": 106101102,
-    "perms": "{\"wsc\":[0,0,8]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[-1,-1,16]\"}",
-    "id": 972,
-    "menuItemId": 106101103,
-    "perms": "{\"wsc\":[0,0,16]}"
-  },
-  {
-    "biz": "retail",
-    "description": "失效菜单对应permId{\"wsc\":\"[-1,-1,32]\"}",
-    "id": 973,
-    "menuItemId": 106101104,
-    "perms": "{\"wsc\":[0,0,32]}"
-  },
-  {
-    "biz": "retail",
-    "description": "广告投放菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1362,
-    "menuItemId": 106102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "微信公众号推广菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1360,
-    "menuItemId": 106102102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "入住分销市场菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1358,
-    "menuItemId": 106102103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1355,
-    "menuItemId": 106103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1353,
-    "menuItemId": 106104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "启用菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1352,
-    "menuItemId": 106104102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "保存菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1351,
-    "menuItemId": 106104103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[1024]\"}",
-    "id": 942,
-    "menuItemId": 107101101,
-    "perms": "{\"wsc\":[1024]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[4096]\"}",
-    "id": 943,
-    "menuItemId": 107102101,
-    "perms": "{\"wsc\":[4096]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[8192]\"}",
-    "id": 944,
-    "menuItemId": 107102102,
-    "perms": "{\"wsc\":[8192]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[65536]\"}",
-    "id": 945,
-    "menuItemId": 107102103,
-    "perms": "{\"wsc\":[65536]}"
-  },
-  {
-    "biz": "retail",
-    "description": "设为主页菜单对应permId{\"wsc\":\"[16384]\"}",
-    "id": 946,
-    "menuItemId": 107102104,
-    "perms": "{\"wsc\":[16384]}"
-  },
-  {
-    "biz": "retail",
-    "description": "批量改分类菜单对应permId{\"wsc\":\"[524288]\"}",
-    "id": 947,
-    "menuItemId": 107102105,
-    "perms": "{\"wsc\":[524288]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"wsc\":\"[131072]\"}",
-    "id": 948,
-    "menuItemId": 107102106,
-    "perms": "{\"wsc\":[131072]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1344,
-    "menuItemId": 107103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[2097152]\"}",
-    "id": 949,
-    "menuItemId": 107103102,
-    "perms": "{\"wsc\":[2097152]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1342,
-    "menuItemId": 107104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[4194304]\"}",
-    "id": 950,
-    "menuItemId": 107104102,
-    "perms": "{\"wsc\":[4194304]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1340,
-    "menuItemId": 107105101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[4294967296]\"}",
-    "id": 951,
-    "menuItemId": 107105102,
-    "perms": "{\"wsc\":[4294967296]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1338,
-    "menuItemId": 107106101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[8388608]\"}",
-    "id": 952,
-    "menuItemId": 107106102,
-    "perms": "{\"wsc\":[8388608]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[33554432]\"}",
-    "id": 953,
-    "menuItemId": 107107101,
-    "perms": "{\"wsc\":[33554432]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[67108864]\"}",
-    "id": 954,
-    "menuItemId": 107107102,
-    "perms": "{\"wsc\":[67108864]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[134217728]\"}",
-    "id": 955,
-    "menuItemId": 107107103,
-    "perms": "{\"wsc\":[134217728]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"wsc\":\"[16777216]\"}",
-    "id": 956,
-    "menuItemId": 107107104,
-    "perms": "{\"wsc\":[16777216]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[268435456]\"}",
-    "id": 957,
-    "menuItemId": 107108101,
-    "perms": "{\"wsc\":[268435456]}"
-  },
-  {
-    "biz": "retail",
-    "description": "添加分组菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1335,
-    "menuItemId": 107108102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "改名菜单对应permId{\"wsc\":\"[1073741824]\"}",
-    "id": 958,
-    "menuItemId": 107108103,
-    "perms": "{\"wsc\":[1073741824]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[536870912]\"}",
-    "id": 959,
-    "menuItemId": 107108104,
-    "perms": "{\"wsc\":[536870912]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[2147483648]\"}",
-    "id": 960,
-    "menuItemId": 107108105,
-    "perms": "{\"wsc\":[2147483648]}"
-  },
-  {
-    "biz": "retail",
-    "description": "购物小票菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1332,
-    "menuItemId": 108101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退货小票菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1330,
-    "menuItemId": 108101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "收银设置菜单对应permId{\"wsc\":\"[-1,2048]\"}",
-    "id": 1328,
-    "menuItemId": 108101103,
-    "perms": "{\"wsc\":[0,2048]}"
-  },
-  {
-    "biz": "retail",
-    "description": "设备设置菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1327,
-    "menuItemId": 108101104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1324,
-    "menuItemId": 108102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "保存菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1323,
-    "menuItemId": 108102102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "单位设置菜单对应permId{\"wsc\":\"[1152921504606847000]\"}",
-    "id": 1321,
-    "menuItemId": 108103101,
-    "perms": "{\"wsc\":[1152921504606847000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上门自提菜单对应permId{\"wsc\":\"[-1,-1,60129542144]\"}",
-    "id": 1319,
-    "menuItemId": 108104101,
-    "perms": "{\"wsc\":[0,0,60129542144]}"
-  },
-  {
-    "biz": "retail",
-    "description": "同城配送菜单对应permId{\"wsc\":\"[-1,-1,137438953472]\"}",
-    "id": 1318,
-    "menuItemId": 108104102,
-    "perms": "{\"wsc\":[0,0,137438953472],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "快递发货菜单对应permId{\"wsc\":\"[-1,-1,2765958938624]\"}",
-    "id": 1315,
-    "menuItemId": 108104103,
-    "perms": "{\"wsc\":[0,0,2765958938624],\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "交易设置菜单对应permId{\"wsc\":\"[-1,-1,879609302220]\"}",
-    "id": 1313,
-    "menuItemId": 108104104,
-    "perms": "{\"wsc\":[0,0,879609302220]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改店铺名称菜单对应permId{\"wsc\":\"[-1,-1,256]\"}",
-    "id": 941,
-    "menuItemId": 108108101,
-    "perms": "{\"wsc\":[0,0,256]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改店铺logo菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1308,
-    "menuItemId": 108108102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "解绑手机号码菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1307,
-    "menuItemId": 108108103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "店铺认证菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1306,
-    "menuItemId": 108108104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 787,
-    "menuItemId": 101101101101,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看商品菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 788,
-    "menuItemId": 101101101102,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品筛选菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 789,
-    "menuItemId": 101101101103,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品搜索菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 790,
-    "menuItemId": 101101101104,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 791,
-    "menuItemId": 101101101105,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "移动商品菜单对应permId{\"cashier\":\"[1125899906842624]\"}",
-    "id": 792,
-    "menuItemId": 101101101106,
-    "perms": "{\"cashier\":[1125899906842624]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上架/下架菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 793,
-    "menuItemId": 101101101107,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除商品菜单对应permId{\"cashier\":\"[2251799813685248]\"}",
-    "id": 794,
-    "menuItemId": 101101101108,
-    "perms": "{\"cashier\":[2251799813685248]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 795,
-    "menuItemId": 101101102101,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看商品菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 796,
-    "menuItemId": 101101102102,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品筛选菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 797,
-    "menuItemId": 101101102103,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品搜索菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 798,
-    "menuItemId": 101101102104,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 799,
-    "menuItemId": 101101102105,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "移动商品菜单对应permId{\"cashier\":\"[1125899906842624]\"}",
-    "id": 800,
-    "menuItemId": 101101102106,
-    "perms": "{\"cashier\":[1125899906842624]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上架/下架菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 801,
-    "menuItemId": 101101102107,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除商品菜单对应permId{\"cashier\":\"[2251799813685248]\"}",
-    "id": 802,
-    "menuItemId": 101101102108,
-    "perms": "{\"cashier\":[2251799813685248]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 803,
-    "menuItemId": 101101103101,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看商品菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 804,
-    "menuItemId": 101101103102,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品筛选菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 805,
-    "menuItemId": 101101103103,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品搜索菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 806,
-    "menuItemId": 101101103104,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 807,
-    "menuItemId": 101101103105,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "移动商品菜单对应permId{\"cashier\":\"[1125899906842624]\"}",
-    "id": 808,
-    "menuItemId": 101101103106,
-    "perms": "{\"cashier\":[1125899906842624]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上架/下架菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 809,
-    "menuItemId": 101101103107,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除商品菜单对应permId{\"cashier\":\"[2251799813685248]\"}",
-    "id": 810,
-    "menuItemId": 101101103108,
-    "perms": "{\"cashier\":[2251799813685248]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 811,
-    "menuItemId": 101101104101,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看商品菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 812,
-    "menuItemId": 101101104102,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品筛选菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 813,
-    "menuItemId": 101101104103,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "商品搜索菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 814,
-    "menuItemId": 101101104104,
-    "perms": "{\"cashier\":[9007199254740992]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑商品菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 815,
-    "menuItemId": 101101104105,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "移动商品菜单对应permId{\"cashier\":\"[1125899906842624]\"}",
-    "id": 816,
-    "menuItemId": 101101104106,
-    "perms": "{\"cashier\":[1125899906842624]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上架/下架菜单对应permId{\"cashier\":\"[281474976710656]\"}",
-    "id": 817,
-    "menuItemId": 101101104107,
-    "perms": "{\"cashier\":[281474976710656]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除商品菜单对应permId{\"cashier\":\"[2251799813685248]\"}",
-    "id": 818,
-    "menuItemId": 101101104108,
-    "perms": "{\"cashier\":[2251799813685248]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 823,
-    "menuItemId": 101103101101,
-    "perms": "{\"cashier\":[36028797018963968]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 824,
-    "menuItemId": 101103101102,
-    "perms": "{\"cashier\":[36028797018963968]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1239,
-    "menuItemId": 101103101103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 825,
-    "menuItemId": 101103102101,
-    "perms": "{\"cashier\":[36028797018963968]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[9007199254740992]\"}",
-    "id": 826,
-    "menuItemId": 101103102102,
-    "perms": "{\"cashier\":[36028797018963968]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1237,
-    "menuItemId": 101103102103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新建盘点菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1234,
-    "menuItemId": 101104101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按照分类筛选菜单对应permId{\"cashier\":\"[-9223372036854775808]\"}",
-    "id": 827,
-    "menuItemId": 101104102101,
-    "perms": "{\"cashier\":[-9223372036854775808]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"cashier\":\"[-9223372036854775808]\"}",
-    "id": 828,
-    "menuItemId": 101104102102,
-    "perms": "{\"cashier\":[-9223372036854775808]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"cashier\":\"[-1,1]\"}",
-    "id": 829,
-    "menuItemId": 101104102103,
-    "perms": "{\"cashier\":[0,1]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发布商品菜单对应permId{\"wsc\":\"[17179869184]\"}",
-    "id": 843,
-    "menuItemId": 101110101101,
-    "perms": "{\"wsc\":[17179869184]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按照分类筛选菜单对应permId{\"wsc\":\"[8589934592]\"}",
-    "id": 844,
-    "menuItemId": 101110101102,
-    "perms": "{\"wsc\":[8589934592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"wsc\":\"[8589934592]\"}",
-    "id": 845,
-    "menuItemId": 101110101103,
-    "perms": "{\"wsc\":[8589934592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改分组菜单对应permId{\"wsc\":\"[274877906944]\"}",
-    "id": 846,
-    "menuItemId": 101110101104,
-    "perms": "{\"wsc\":[274877906944]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑商品菜单对应permId{\"wsc\":\"[34359738368]\"}",
-    "id": 847,
-    "menuItemId": 101110101105,
-    "perms": "{\"wsc\":[34359738368]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上架/下架菜单对应permId{\"wsc\":\"[68719476736]\"}",
-    "id": 848,
-    "menuItemId": 101110101106,
-    "perms": "{\"wsc\":[68719476736]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改运费模板菜单对应permId{\"wsc\":\"[137438953472]\"}",
-    "id": 849,
-    "menuItemId": 101110101107,
-    "perms": "{\"wsc\":[137438953472]}"
-  },
-  {
-    "biz": "retail",
-    "description": "设置会员折扣菜单对应permId{\"wsc\":\"[549755813888]\"}",
-    "id": 850,
-    "menuItemId": 101110101108,
-    "perms": "{\"wsc\":[549755813888]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除商品菜单对应permId{\"wsc\":\"[4398046511104]\"}",
-    "id": 851,
-    "menuItemId": 101110101109,
-    "perms": "{\"wsc\":[4398046511104]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发布商品菜单对应permId{\"wsc\":\"[17179869184]\"}",
-    "id": 852,
-    "menuItemId": 101110102101,
-    "perms": "{\"wsc\":[17179869184]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按照分类筛选菜单对应permId{\"wsc\":\"[8589934592]\"}",
-    "id": 853,
-    "menuItemId": 101110102102,
-    "perms": "{\"wsc\":[8589934592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"wsc\":\"[8589934592]\"}",
-    "id": 854,
-    "menuItemId": 101110102103,
-    "perms": "{\"wsc\":[8589934592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改分组菜单对应permId{\"wsc\":\"[274877906944]\"}",
-    "id": 855,
-    "menuItemId": 101110102104,
-    "perms": "{\"wsc\":[274877906944]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑商品菜单对应permId{\"wsc\":\"[34359738368]\"}",
-    "id": 856,
-    "menuItemId": 101110102105,
-    "perms": "{\"wsc\":[34359738368]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上架/下架菜单对应permId{\"wsc\":\"[68719476736]\"}",
-    "id": 857,
-    "menuItemId": 101110102106,
-    "perms": "{\"wsc\":[68719476736]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改运费模板菜单对应permId{\"wsc\":\"[137438953472]\"}",
-    "id": 858,
-    "menuItemId": 101110102107,
-    "perms": "{\"wsc\":[137438953472]}"
-  },
-  {
-    "biz": "retail",
-    "description": "设置会员折扣菜单对应permId{\"wsc\":\"[549755813888]\"}",
-    "id": 859,
-    "menuItemId": 101110102108,
-    "perms": "{\"wsc\":[549755813888]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除商品菜单对应permId{\"wsc\":\"[4398046511104]\"}",
-    "id": 860,
-    "menuItemId": 101110102109,
-    "perms": "{\"wsc\":[4398046511104]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发布商品菜单对应permId{\"wsc\":\"[17179869184]\"}",
-    "id": 861,
-    "menuItemId": 101110103101,
-    "perms": "{\"wsc\":[17179869184]}"
-  },
-  {
-    "biz": "retail",
-    "description": "按照分类筛选菜单对应permId{\"wsc\":\"[8589934592]\"}",
-    "id": 862,
-    "menuItemId": 101110103102,
-    "perms": "{\"wsc\":[8589934592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "搜索菜单对应permId{\"wsc\":\"[8589934592]\"}",
-    "id": 863,
-    "menuItemId": 101110103103,
-    "perms": "{\"wsc\":[8589934592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改分组菜单对应permId{\"wsc\":\"[274877906944]\"}",
-    "id": 864,
-    "menuItemId": 101110103104,
-    "perms": "{\"wsc\":[274877906944]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑商品菜单对应permId{\"wsc\":\"[34359738368]\"}",
-    "id": 865,
-    "menuItemId": 101110103105,
-    "perms": "{\"wsc\":[34359738368]}"
-  },
-  {
-    "biz": "retail",
-    "description": "上架/下架菜单对应permId{\"wsc\":\"[68719476736]\"}",
-    "id": 866,
-    "menuItemId": 101110103106,
-    "perms": "{\"wsc\":[68719476736]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改运费模板菜单对应permId{\"wsc\":\"[137438953472]\"}",
-    "id": 867,
-    "menuItemId": 101110103107,
-    "perms": "{\"wsc\":[137438953472]}"
-  },
-  {
-    "biz": "retail",
-    "description": "设置会员折扣菜单对应permId{\"wsc\":\"[549755813888]\"}",
-    "id": 868,
-    "menuItemId": 101110103108,
-    "perms": "{\"wsc\":[549755813888]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除商品菜单对应permId{\"wsc\":\"[4398046511104]\"}",
-    "id": 869,
-    "menuItemId": 101110103109,
-    "perms": "{\"wsc\":[4398046511104]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1214,
-    "menuItemId": 101113101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "下架菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1213,
-    "menuItemId": 101113101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1212,
-    "menuItemId": 101113101103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1210,
-    "menuItemId": 101113102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[2]\"}",
-    "id": 886,
-    "menuItemId": 102104101101,
-    "perms": "{\"retail\":[2]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"retail\":\"[8]\"}",
-    "id": 887,
-    "menuItemId": 102104101102,
-    "perms": "{\"retail\":[8]}"
-  },
-  {
-    "biz": "retail",
-    "description": "撤回网店菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1198,
-    "menuItemId": 102104101103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[4]\"}",
-    "id": 888,
-    "menuItemId": 102104102101,
-    "perms": "{\"retail\":[4]}"
-  },
-  {
-    "biz": "retail",
-    "description": "修改物流菜单对应permId{\"retail\":\"[32]\"}",
-    "id": 889,
-    "menuItemId": 102104102102,
-    "perms": "{\"retail\":[32]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[4]\"}",
-    "id": 890,
-    "menuItemId": 102104103101,
-    "perms": "{\"retail\":[4]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 892,
-    "menuItemId": 102106101101,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 893,
-    "menuItemId": 102106101102,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[36028797018963970]\"}",
-    "id": 894,
-    "menuItemId": 102106101103,
-    "perms": "{\"wsc\":[36028797018963970]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[72057594037927940]\"}",
-    "id": 895,
-    "menuItemId": 102106101104,
-    "perms": "{\"wsc\":[72057594037927940]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1192,
-    "menuItemId": 102106101105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 896,
-    "menuItemId": 102106102101,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 897,
-    "menuItemId": 102106102102,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[36028797018963970]\"}",
-    "id": 898,
-    "menuItemId": 102106102103,
-    "perms": "{\"wsc\":[36028797018963970]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[72057594037927940]\"}",
-    "id": 899,
-    "menuItemId": 102106102104,
-    "perms": "{\"wsc\":[72057594037927940]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1121,
-    "menuItemId": 102106102105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 900,
-    "menuItemId": 102106103101,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 901,
-    "menuItemId": 102106103102,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[36028797018963970]\"}",
-    "id": 902,
-    "menuItemId": 102106103103,
-    "perms": "{\"wsc\":[36028797018963970]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[72057594037927940]\"}",
-    "id": 903,
-    "menuItemId": 102106103104,
-    "perms": "{\"wsc\":[72057594037927940]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1120,
-    "menuItemId": 102106103105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 904,
-    "menuItemId": 102106104101,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 905,
-    "menuItemId": 102106104102,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[36028797018963970]\"}",
-    "id": 906,
-    "menuItemId": 102106104103,
-    "perms": "{\"wsc\":[36028797018963970]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[72057594037927940]\"}",
-    "id": 907,
-    "menuItemId": 102106104104,
-    "perms": "{\"wsc\":[72057594037927940]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1371,
-    "menuItemId": 102106104105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 908,
-    "menuItemId": 102106105101,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"wsc\":\"[18014398509481984]\"}",
-    "id": 909,
-    "menuItemId": 102106105102,
-    "perms": "{\"wsc\":[18014398509481984]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[36028797018963970]\"}",
-    "id": 910,
-    "menuItemId": 102106105103,
-    "perms": "{\"wsc\":[36028797018963970]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[72057594037927940]\"}",
-    "id": 911,
-    "menuItemId": 102106105104,
-    "perms": "{\"wsc\":[72057594037927940]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1370,
-    "menuItemId": 102106105105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1189,
-    "menuItemId": 102107101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1188,
-    "menuItemId": 102107101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[2305843009213694000]\"}",
-    "id": 912,
-    "menuItemId": 102107101103,
-    "perms": "{\"wsc\":[2305843009213694000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[4611686018427388000]\"}",
-    "id": 913,
-    "menuItemId": 102107101104,
-    "perms": "{\"wsc\":[4611686018427388000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1187,
-    "menuItemId": 102107101105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1185,
-    "menuItemId": 102107102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1184,
-    "menuItemId": 102107102102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[2305843009213694000]\"}",
-    "id": 914,
-    "menuItemId": 102107102103,
-    "perms": "{\"wsc\":[2305843009213694000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[4611686018427388000]\"}",
-    "id": 915,
-    "menuItemId": 102107102104,
-    "perms": "{\"wsc\":[4611686018427388000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1183,
-    "menuItemId": 102107102105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1181,
-    "menuItemId": 102107103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1180,
-    "menuItemId": 102107103102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[2305843009213694000]\"}",
-    "id": 916,
-    "menuItemId": 102107103103,
-    "perms": "{\"wsc\":[2305843009213694000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[4611686018427388000]\"}",
-    "id": 917,
-    "menuItemId": 102107103104,
-    "perms": "{\"wsc\":[4611686018427388000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1179,
-    "menuItemId": 102107103105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1177,
-    "menuItemId": 102107104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1176,
-    "menuItemId": 102107104102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[2305843009213694000]\"}",
-    "id": 918,
-    "menuItemId": 102107104103,
-    "perms": "{\"wsc\":[2305843009213694000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[4611686018427388000]\"}",
-    "id": 919,
-    "menuItemId": 102107104104,
-    "perms": "{\"wsc\":[4611686018427388000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1175,
-    "menuItemId": 102107104105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1173,
-    "menuItemId": 102107105101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1172,
-    "menuItemId": 102107105102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"wsc\":\"[2305843009213694000]\"}",
-    "id": 920,
-    "menuItemId": 102107105103,
-    "perms": "{\"wsc\":[2305843009213694000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"wsc\":\"[4611686018427388000]\"}",
-    "id": 921,
-    "menuItemId": 102107105104,
-    "perms": "{\"wsc\":[4611686018427388000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1171,
-    "menuItemId": 102107105105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[-1,64]\"}",
-    "id": 922,
-    "menuItemId": 102108101101,
-    "perms": "{\"wsc\":[0,64]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1168,
-    "menuItemId": 102108101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1167,
-    "menuItemId": 102108101103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1166,
-    "menuItemId": 102108101104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"wsc\":\"[-1,16]\"}",
-    "id": 923,
-    "menuItemId": 102108101105,
-    "perms": "{\"wsc\":[0,16]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1164,
-    "menuItemId": 102108102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1163,
-    "menuItemId": 102108102102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1162,
-    "menuItemId": 102108102103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1161,
-    "menuItemId": 102108102104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1160,
-    "menuItemId": 102108102105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1158,
-    "menuItemId": 102108103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1157,
-    "menuItemId": 102108103102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1156,
-    "menuItemId": 102108103103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1155,
-    "menuItemId": 102108103104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1154,
-    "menuItemId": 102108103105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1152,
-    "menuItemId": 102108104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1151,
-    "menuItemId": 102108104102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1150,
-    "menuItemId": 102108104103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1149,
-    "menuItemId": 102108104104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1148,
-    "menuItemId": 102108104105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1146,
-    "menuItemId": 102108105101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1145,
-    "menuItemId": 102108105102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导出菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1144,
-    "menuItemId": 102108105103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发货菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1143,
-    "menuItemId": 102108105104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "退款菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1142,
-    "menuItemId": 102108105105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1135,
-    "menuItemId": 102113101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1134,
-    "menuItemId": 102113101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1133,
-    "menuItemId": 102113101103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1131,
-    "menuItemId": 102113102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1130,
-    "menuItemId": 102113102102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1129,
-    "menuItemId": 102113102103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1127,
-    "menuItemId": 102113103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1126,
-    "menuItemId": 102113103102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "复制菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1125,
-    "menuItemId": 102113103103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1124,
-    "menuItemId": 102113103104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1122,
-    "menuItemId": 102113104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看",
-    "id": 1734,
-    "menuItemId": 103102101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "筛选菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1265,
-    "menuItemId": 103102101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "添加",
-    "id": 1735,
-    "menuItemId": 103102101103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1264,
-    "menuItemId": 103102101104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1263,
-    "menuItemId": 103102101105,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发短信",
-    "id": 1736,
-    "menuItemId": 103102102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "给积分",
-    "id": 1737,
-    "menuItemId": 103102102102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "发会员卡菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1261,
-    "menuItemId": 103102102103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "导入菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1259,
-    "menuItemId": 103102103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1258,
-    "menuItemId": 103102103102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新建菜单对应permId{\"wsc\":\"[-1,33554432]\"}",
-    "id": 979,
-    "menuItemId": 103104101101,
-    "perms": "{\"wsc\":[0,33554432]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[-1,67108864]\"}",
-    "id": 980,
-    "menuItemId": 103104101102,
-    "perms": "{\"wsc\":[0,67108864]}"
-  },
-  {
-    "biz": "retail",
-    "description": "禁用菜单对应permId{\"wsc\":\"[-1,134217728]\"}",
-    "id": 981,
-    "menuItemId": 103104101103,
-    "perms": "{\"wsc\":[0,134217728]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[-1,134217728]\"}",
-    "id": 982,
-    "menuItemId": 103104101104,
-    "perms": "{\"wsc\":[0,134217728]}"
-  },
-  {
-    "biz": "retail",
-    "description": "应用订购菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1253,
-    "menuItemId": 103104102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[-1,4398046511104]\"}",
-    "id": 983,
-    "menuItemId": 103104102102,
-    "perms": "{\"wsc\":[0,4398046511104]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[-1,8796093022208]\"}",
-    "id": 984,
-    "menuItemId": 103104102103,
-    "perms": "{\"wsc\":[0,8796093022208]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[-1,17592186044416]\"}",
-    "id": 985,
-    "menuItemId": 103104102104,
-    "perms": "{\"wsc\":[0,17592186044416]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[-1,35184372088832]\"}",
-    "id": 986,
-    "menuItemId": 103104102105,
-    "perms": "{\"wsc\":[0,35184372088832]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1251,
-    "menuItemId": 103104103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1249,
-    "menuItemId": 103104104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1295,
-    "menuItemId": 105103101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1294,
-    "menuItemId": 105103102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"wsc\":\"[-1,1152921504606847000]\"}",
-    "id": 966,
-    "menuItemId": 105105101101,
-    "perms": "{\"wsc\":[0,1152921504606847000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "订购菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1290,
-    "menuItemId": 105105101102,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "续费菜单对应permId{\"wsc\":\"[-1,2305843009213694000]\"}",
-    "id": 967,
-    "menuItemId": 105105101103,
-    "perms": "{\"wsc\":[0,2305843009213694000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1288,
-    "menuItemId": 105105102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1286,
-    "menuItemId": 105105103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1284,
-    "menuItemId": 105105104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "立即进入菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1361,
-    "menuItemId": 106102101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "立即进入菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1359,
-    "menuItemId": 106102102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "立即进入菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1357,
-    "menuItemId": 106102103101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1331,
-    "menuItemId": 108101101101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "查看菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1329,
-    "menuItemId": 108101102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "保存菜单对应permId{\"wsc\":\"[-1,2048]\"}",
-    "id": 928,
-    "menuItemId": 108101103101,
-    "perms": "{\"wsc\":[0,2048]}"
-  },
-  {
-    "biz": "retail",
-    "description": "保存菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1326,
-    "menuItemId": 108101104101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[1152921504606847000]\"}",
-    "id": 929,
-    "menuItemId": 108103101101,
-    "perms": "{\"wsc\":[1152921504606847000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "启用菜单对应permId{\"wsc\":\"[1152921504606847000]\"}",
-    "id": 930,
-    "menuItemId": 108103101102,
-    "perms": "{\"wsc\":[1152921504606847000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "禁用菜单对应permId{\"wsc\":\"[1152921504606847000]\"}",
-    "id": 931,
-    "menuItemId": 108103101103,
-    "perms": "{\"wsc\":[1152921504606847000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[1152921504606847000]\"}",
-    "id": 932,
-    "menuItemId": 108103101104,
-    "perms": "{\"wsc\":[1152921504606847000]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[-1,-1,8589934592]\"}",
-    "id": 933,
-    "menuItemId": 108104101101,
-    "perms": "{\"wsc\":[0,0,8589934592]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[-1,-1,17179869184]\"}",
-    "id": 934,
-    "menuItemId": 108104101102,
-    "perms": "{\"wsc\":[0,0,17179869184]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"wsc\":\"[-1,-1,34359738368]\"}",
-    "id": 935,
-    "menuItemId": 108104101103,
-    "perms": "{\"wsc\":[0,0,34359738368]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1317,
-    "menuItemId": 108104102101,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[-1,-1,137438953472]\"}",
-    "id": 936,
-    "menuItemId": 108104102102,
-    "perms": "{\"wsc\":[0,0,137438953472]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1316,
-    "menuItemId": 108104102103,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "新增菜单对应permId{\"wsc\":\"[-1,-1,549755813888]\"}",
-    "id": 937,
-    "menuItemId": 108104103101,
-    "perms": "{\"wsc\":[0,0,549755813888]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[-1,-1,17179869184]\"}",
-    "id": 938,
-    "menuItemId": 108104103102,
-    "perms": "{\"wsc\":[0,0,17179869184]}"
-  },
-  {
-    "biz": "retail",
-    "description": "复制菜单对应permId{\"wsc\":\"[-1,-1,2199023255552]\"}",
-    "id": 939,
-    "menuItemId": 108104103103,
-    "perms": "{\"wsc\":[0,0,2199023255552]}"
-  },
-  {
-    "biz": "retail",
-    "description": "删除菜单对应permId{\"retail\":\"[0]\"}",
-    "id": 1314,
-    "menuItemId": 108104103104,
-    "perms": "{\"retail\":[0]}"
-  },
-  {
-    "biz": "retail",
-    "description": "编辑菜单对应permId{\"wsc\":\"[-1,-1,879609302220]\"}",
-    "id": 940,
-    "menuItemId": 108104104101,
-    "perms": "{\"wsc\":[0,0,879609302220]}"
+{
+  "M20170711014017016676156": {
+    "kdtId": 358764,
+    "yzUid": 4716328,
+    "orderNo": "M20170711014017016676156",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170711014017080800001",
+    "billOrderId": "1391727736149508097",
+    "finishTime": 0,
+    "billTime": 1499708417,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499708417,
+    "updateTime": 1499708417,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802202555094513055": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802202555094513055",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802202556061000001",
+    "billOrderId": "1395954711861919745",
+    "finishTime": 0,
+    "billTime": 1501676756,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676756,
+    "updateTime": 1501676756,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802192503071485565": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802192503071485565",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802192503061000001",
+    "billOrderId": "1395946867104153601",
+    "finishTime": 0,
+    "billTime": 1501673103,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501673103,
+    "updateTime": 1501673103,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203319068950823": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203319068950823",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203319061000001",
+    "billOrderId": "1395955663197175809",
+    "finishTime": 0,
+    "billTime": 1501677199,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677199,
+    "updateTime": 1501677199,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203812091716456": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203812091716456",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203812061000001",
+    "billOrderId": "1395956292409884673",
+    "finishTime": 0,
+    "billTime": 1501677493,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677493,
+    "updateTime": 1501677493,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802191720047017971": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802191720047017971",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802191720061000001",
+    "billOrderId": "1395945872819224577",
+    "finishTime": 0,
+    "billTime": 1501672640,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501672640,
+    "updateTime": 1501672640,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802191331066116612": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802191331066116612",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802191331061000001",
+    "billOrderId": "1395945381045469185",
+    "finishTime": 0,
+    "billTime": 1501672411,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501672411,
+    "updateTime": 1501672411,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802202938096965091": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802202938096965091",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802202939061000001",
+    "billOrderId": "1395955190750773249",
+    "finishTime": 0,
+    "billTime": 1501676979,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676979,
+    "updateTime": 1501676979,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203103012834642": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203103012834642",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203103061000001",
+    "billOrderId": "1395955371139399681",
+    "finishTime": 0,
+    "billTime": 1501677063,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677063,
+    "updateTime": 1501677063,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203521063948384": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203521063948384",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203521061000001",
+    "billOrderId": "1395955925190180865",
+    "finishTime": 0,
+    "billTime": 1501677321,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677321,
+    "updateTime": 1501677321,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203509075220670": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203509075220670",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203509061000001",
+    "billOrderId": "1395955899420377089",
+    "finishTime": 0,
+    "billTime": 1501677309,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677309,
+    "updateTime": 1501677309,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170711012132003193336": {
+    "kdtId": 358764,
+    "yzUid": 4716328,
+    "orderNo": "M20170711012132003193336",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170711012132080800001",
+    "billOrderId": "1391725320230404097",
+    "finishTime": 0,
+    "billTime": 1499707292,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499707292,
+    "updateTime": 1499707292,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802201014058317905": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802201014058317905",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802201014061000001",
+    "billOrderId": "1395952688932323329",
+    "finishTime": 0,
+    "billTime": 1501675814,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501675814,
+    "updateTime": 1501675814,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802192748012323336": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802192748012323336",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802192748061000001",
+    "billOrderId": "1395947221438955521",
+    "finishTime": 0,
+    "billTime": 1501673268,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501673268,
+    "updateTime": 1501673268,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170710112059040893808": {
+    "kdtId": 358764,
+    "yzUid": 4716328,
+    "orderNo": "M20170710112059040893808",
+    "fromSource": 3,
+    "orderState": 40,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170710112059080800001",
+    "billOrderId": "1391617016187584513",
+    "finishTime": 1499656862,
+    "billTime": 1499656859,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499656859,
+    "updateTime": 1499656862,
+    "billOrderPaid": true,
+    "billOrderRefund": false
+  },
+  "M20170802191436024048062": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802191436024048062",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802191436061000001",
+    "billOrderId": "1395945520631906305",
+    "finishTime": 0,
+    "billTime": 1501672476,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501672476,
+    "updateTime": 1501672476,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170711012052063860496": {
+    "kdtId": 358764,
+    "yzUid": 4716328,
+    "orderNo": "M20170711012052063860496",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170711012052080800001",
+    "billOrderId": "1391725234331058177",
+    "finishTime": 0,
+    "billTime": 1499707252,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499707252,
+    "updateTime": 1499707252,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802201535094086424": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802201535094086424",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802201536061000001",
+    "billOrderId": "1395953380422057985",
+    "finishTime": 0,
+    "billTime": 1501676136,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676136,
+    "updateTime": 1501676136,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802201331057220466": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802201331057220466",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802201331061000001",
+    "billOrderId": "1395953111986601985",
+    "finishTime": 0,
+    "billTime": 1501676011,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676011,
+    "updateTime": 1501676011,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170711011929054130614": {
+    "kdtId": 358764,
+    "yzUid": 4716328,
+    "orderNo": "M20170711011929054130614",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170711011929080800001",
+    "billOrderId": "1391725056089915393",
+    "finishTime": 0,
+    "billTime": 1499707169,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499707169,
+    "updateTime": 1499707169,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802201435052118054": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802201435052118054",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802201435061000001",
+    "billOrderId": "1395953249425555457",
+    "finishTime": 0,
+    "billTime": 1501676075,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676075,
+    "updateTime": 1501676075,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802202640037641028": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802202640037641028",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802202640061000001",
+    "billOrderId": "1395954806351200257",
+    "finishTime": 0,
+    "billTime": 1501676800,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676800,
+    "updateTime": 1501676800,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170711012711033921911": {
+    "kdtId": 358764,
+    "yzUid": 4716328,
+    "orderNo": "M20170711012711033921911",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170711012711080800001",
+    "billOrderId": "1391726048227360769",
+    "finishTime": 0,
+    "billTime": 1499707631,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499707631,
+    "updateTime": 1499707631,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170711014038045380596": {
+    "kdtId": 358764,
+    "yzUid": 4716328,
+    "orderNo": "M20170711014038045380596",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170711014038080800001",
+    "billOrderId": "1391727781246664705",
+    "finishTime": 0,
+    "billTime": 1499708438,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499708438,
+    "updateTime": 1499708438,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170710105239070535571": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170710105239070535571",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170710105239061000001",
+    "billOrderId": "1391613365361573889",
+    "finishTime": 0,
+    "billTime": 1499655160,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499655160,
+    "updateTime": 1499655160,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203022048049130": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203022048049130",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203022061000001",
+    "billOrderId": "1395955283092570113",
+    "finishTime": 0,
+    "billTime": 1501677022,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677022,
+    "updateTime": 1501677022,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170710105322061278282": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170710105322061278282",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170710105322061000001",
+    "billOrderId": "1391613457703370753",
+    "finishTime": 0,
+    "billTime": 1499655203,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499655203,
+    "updateTime": 1499655203,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170710110236075793278": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170710110236075793278",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "chagege",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170710110236061000002",
+    "billOrderId": "1391614647409312745",
+    "finishTime": 0,
+    "billTime": 1499655757,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499655757,
+    "updateTime": 1499655757,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802201157091257883": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802201157091257883",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802201158061000001",
+    "billOrderId": "1395952912270622721",
+    "finishTime": 0,
+    "billTime": 1501675918,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501675918,
+    "updateTime": 1501675918,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170710123816076425082": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170710123816076425082",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 4693602,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170710123816061000001",
+    "billOrderId": "1391626973965451265",
+    "finishTime": 0,
+    "billTime": 1499661497,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499661497,
+    "updateTime": 1499661497,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802201659044728065": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802201659044728065",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802201659061000001",
+    "billOrderId": "1395953558663200769",
+    "finishTime": 0,
+    "billTime": 1501676219,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676219,
+    "updateTime": 1501676219,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170710111254055355719": {
+    "kdtId": 358764,
+    "yzUid": 5182819,
+    "orderNo": "M20170710111254055355719",
+    "fromSource": 3,
+    "orderState": 40,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170710111254035500001",
+    "billOrderId": "1391615974420512769",
+    "finishTime": 1499656376,
+    "billTime": 1499656374,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1499656374,
+    "updateTime": 1499656376,
+    "billOrderPaid": true,
+    "billOrderRefund": false
+  },
+  "M20170802191303016038602": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802191303016038602",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802191303061000001",
+    "billOrderId": "1395945320915927041",
+    "finishTime": 0,
+    "billTime": 1501672383,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501672383,
+    "updateTime": 1501672383,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203726053699728": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203726053699728",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203726061000001",
+    "billOrderId": "1395956193625636865",
+    "finishTime": 0,
+    "billTime": 1501677446,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677446,
+    "updateTime": 1501677446,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802201844039513430": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802201844039513430",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802201844061000001",
+    "billOrderId": "1395953784148983809",
+    "finishTime": 0,
+    "billTime": 1501676324,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501676324,
+    "updateTime": 1501676324,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802203633022833864": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802203633022833864",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802203633061000001",
+    "billOrderId": "1395956079809003521",
+    "finishTime": 0,
+    "billTime": 1501677393,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501677393,
+    "updateTime": 1501677393,
+    "billOrderPaid": false,
+    "billOrderRefund": false
+  },
+  "M20170802200843056889973": {
+    "kdtId": 358764,
+    "yzUid": 4693602,
+    "orderNo": "M20170802200843056889973",
+    "fromSource": 3,
+    "orderState": 30,
+    "orderType": 1,
+    "cashierId": 0,
+    "remark": "",
+    "buyerMemo": "",
+    "reserveOrderId": "",
+    "reserveOrderNo": "",
+    "billOrderNo": "E20170802200843061000001",
+    "billOrderId": "1395952493511311361",
+    "finishTime": 0,
+    "billTime": 1501675723,
+    "reserveTime": 0,
+    "guestName": "",
+    "guestGender": 0,
+    "createTime": 1501675723,
+    "updateTime": 1501675723,
+    "billOrderPaid": false,
+    "billOrderRefund": false
   }
-]
+}
