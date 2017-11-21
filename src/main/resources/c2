@@ -1,0 +1,35 @@
+@SpringBootApplication
+@ImportResource({"classpath*:spring/application.xml"})
+@EnableNova
+@EnableChameleon
+@ComponentScan
+@MapperScan("com.youzan.**.dal.mapper")
+public class BootApplication {
+
+    private Logger logger = LoggerFactory.getLogger(BootApplication.class);
+
+    public static void main(String[] args) {
+        String activeProfile = System.getProperty("spring.profiles.active");
+        if(Strings.isNullOrEmpty(activeProfile)){
+            System.setProperty("spring.profiles.active", "qa");
+        }
+        YouZanBootApplication.run(BootApplication.class, args);
+    }
+
+    @Bean
+    public CommandLineRunner runner() {
+        return args -> {
+            //            System.out
+            //                    .println(DynamicPropertyFactory.getInstance()
+            //                            .getStringProperty("hello", "hello")
+            //                            .get());
+            //
+            //            System.out.println(DynamicPropertyFactory.getInstance()
+            //                    .getLongProperty("hystrix.threadpool.GoodsServiceGroup.coreSize", 1)
+            //                    .get());
+
+            logger.info(DynamicPropertyFactory.getInstance().getStringProperty("hello", "hello").get());
+        };
+    }
+
+}

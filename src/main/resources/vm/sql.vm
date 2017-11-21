@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.youzan.beauty.spa.member.dal.mapper.MemberCardMapper">
+
+    <sql id="table">
+        `member_card`
+    </sql>
+
+    <sql id="insertColumns">
+        `kdt_id`,
+        `dept_id`,
+        `user_id`,
+        `card_id`,
+        `prepaid_id`,
+        `card_alias`,
+        `card_type`,
+        `card_name`,
+        `card_no`,
+        `price`,
+        `begin_time`,
+        `end_time`,
+        `source_id`,
+        `source_data`,
+        `source_type`,
+        `created_at`
+    </sql>
+
+    <sql id="allColumns">
+        `id`,
+        <include refid="insertColumns"/>
+    </sql>
+
+    <insert id="insert" parameterType="com.youzan.beauty.spa.member.dal.dataobject.MemberCardDO" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO<include refid="table"/>(
+        <include refid="insertColumns"/>
+        )
+        VALUES(
+        #{kdtId},
+        #{deptId},
+        #{userId},
+        #{cardId},
+        #{prepaidId},
+        #{cardAlias},
+        #{cardType},
+        #{cardName},
+        #{cardNo},
+        #{price},
+        #{beginTime},
+        #{endTime},
+        #{sourceId},
+        #{sourceData},
+        #{sourceType},
+        NOW())
+    </insert>
+
+    <select id="getMemberCard" parameterType="com.youzan.beauty.spa.member.model.query.MemberCardQuery" resultType="com.youzan.beauty.spa.member.dal.dataobject.MemberCardDO">
+        SELECT
+        <include refid="allColumns"/>
+        FROM
+        <include refid="table"/>
+        WHERE
+        `kdt_id` = #{kdtId}
+        <if test="userId != null and userId > 0">
+            `user_id` = #{userId}
+        </if>
+        limit 1
+    </select>
+
+</mapper>

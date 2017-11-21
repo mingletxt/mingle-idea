@@ -1,9 +1,9 @@
-import com.mingle.num.IntegerTest;
+import org.bson.codecs.ObjectIdGenerator;
 
-import java.util.ArrayList;
+import java.math.BigInteger;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.List;
-import java.util.UUID;
 
 
 /**
@@ -15,7 +15,10 @@ import java.util.UUID;
 public class Test {
     
     
-    public static void main(String[] args) {
-//        Long[] ids
+    public static void main(String[] args) throws ParseException {
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        String time = sdf.format(new Date());
+        System.out.println(time);
+        System.out.println(sdf.parse(time));
     }
 }
