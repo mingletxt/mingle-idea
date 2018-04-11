@@ -1,0 +1,229 @@
+[
+  CustomerCardWithRightsDTO
+  (
+  yzUid
+  :
+  708794313,
+  kdtId
+  :
+  40185631,
+  cardNo
+  :
+  223937095293782277,
+  isAvailable
+  :
+  true,
+  state
+  :
+  1,
+  activatedAt
+  :
+  0,
+  termBeginAt
+  :
+  0,
+  termEndAt
+  :
+  0,
+  isDefault
+  :
+  true,
+  isSyncWeChat
+  :
+  false,
+  level
+  :
+  0,
+  mobile
+  :,
+  createdAt
+  :
+  1515399893,
+  card
+  :
+  CardDTO
+  (
+  id
+  :
+  100119774,
+  kdtId
+  :
+  40185631,
+  name
+  :
+  综合卡,
+  cardAlias
+  :
+  2
+  g2seaqvqwwani,
+  colorCode
+  :
+  Color050,
+  coverUrl
+  :,
+  level
+  :
+  0,
+  grantType
+  :
+  2,
+  canBuy
+  :
+  1,
+  isNeedActivate
+  :
+  0,
+  isSyncWeixin
+  :
+  1,
+  isDisplay
+  :
+  1,
+  isDefault
+  :
+  0,
+  isAvailable
+  :
+  1,
+  syncWeixinState
+  :
+  3,
+  weixinCardId
+  :
+  pHIuujougo2CTVTER6VkG6XnQ4KU,
+  displayOrder
+  :
+  0,
+  createdAt
+  :
+  1515399834,
+  updatedAt
+  :
+  1515399838,
+  cardNumberPrefix
+  :
+  2239370952,
+  rights
+  :
+  {
+    4546977
+    =
+    CardRightsDTO
+    (
+    id: 4546977,
+    rightsType: 5,
+    rightsValue: CardRightsValueDTO
+    (
+    times: TimesRightValueDTO
+    (
+    times: 1,
+    remainTimes: 0
+    )
+    ),
+    isAvailable: 1,
+    itemType: 1,
+    itemId: 403996282,
+    isGift: 1
+    ),
+    4546976
+    =
+    CardRightsDTO
+    (
+    id: 4546976,
+    rightsType: 5,
+    rightsValue: CardRightsValueDTO
+    (
+    times: TimesRightValueDTO
+    (
+    times: 1,
+    remainTimes: 1
+    )
+    ),
+    isAvailable: 1,
+    itemType: 1,
+    itemId: 404095209,
+    isGift: 1
+    ),
+    4546973
+    =
+    CardRightsDTO
+    (
+    id: 4546973,
+    rightsType: 5,
+    rightsValue: CardRightsValueDTO
+    (
+    times: TimesRightValueDTO
+    (
+    times: 3,
+    remainTimes: 2
+    )
+    ),
+    isAvailable: 1,
+    itemType: 1,
+    itemId: 404090642,
+    isGift: 0
+    ),
+    4546972
+    =
+    CardRightsDTO
+    (
+    id: 4546972,
+    rightsType: 5,
+    rightsValue: CardRightsValueDTO
+    (
+    times: TimesRightValueDTO
+    (
+    times: 6,
+    remainTimes: 1
+    )
+    ),
+    isAvailable: 1,
+    itemType: 1,
+    itemId: 403890138,
+    isGift: 0
+    ),
+    4546975
+    =
+    CardRightsDTO
+    (
+    id: 4546975,
+    rightsType: 5,
+    rightsValue: CardRightsValueDTO
+    (
+    times: TimesRightValueDTO
+    (
+    times: 2,
+    remainTimes: 1
+    )
+    ),
+    isAvailable: 1,
+    itemType: 1,
+    itemId: 404815634,
+    isGift: 1
+    ),
+    4546974
+    =
+    CardRightsDTO
+    (
+    id: 4546974,
+    rightsType: 5,
+    rightsValue: CardRightsValueDTO
+    (
+    times: TimesRightValueDTO
+    (
+    times: 6,
+    remainTimes: 5
+    )
+    ),
+    isAvailable: 1,
+    itemType: 1,
+    itemId: 404090531,
+    isGift: 0
+    )
+  },
+  isAllowRetake
+  :
+  true
+  )
+  )
+]

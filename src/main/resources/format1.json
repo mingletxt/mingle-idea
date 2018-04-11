@@ -1,30 +1,17 @@
 {
-  "averageAmount": 45,
-  "birthday": "1994-10-17 00:00:00",
-  "cardIds": "|100078135|100078132|100058047|100065660|100089916|100089980|100092775|100058913|100056686|100056682|100097962|100056683|100055017|100103319|100061207|100061204|100097235|100091549|100061341|100098073|100055108|100063683|100088527|100088526|100088525|100093386|",
-  "createdAt": 1504624600000,
-  "customerSrc": 700,
-  "firstConsumerStore": 27493292,
-  "firstConsumerTime": -30609820800000,
-  "fromUserId": 0,
-  "gender": 0,
-  "growth": 535099,
-  "id": 19814,
-  "kdtId": 19041228,
-  "lastTradeTime": 1511153606000,
-  "member": 1,
-  "memberCreatedAt": 1496806760000,
-  "memberLevel": 1,
-  "mobile": "15707203933",
-  "name": "Jeff and you",
-  "remark": "",
-  "sourceId": 473081776,
-  "sourceType": 0,
-  "totalTradeAmount": 45,
-  "totalTradeCount": 1,
-  "updatedAt": 1511152954000,
-  "weixin": "123",
-  "wxNickName": "",
-  "yzMallFansId": 0,
-  "yzUid": 473081776
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "term": {
+            "kdt_id": "18972200"
+          }
+        }
+      ],
+      "should": [],
+      "must_not": []
+    }
+  },
+  "from": 0,
+  "size": "10"
 }

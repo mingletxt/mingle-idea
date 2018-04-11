@@ -1,1 +1,50 @@
-{"kdtId":190212,"adminId":317696,"biz":"wsc"}
+{
+  "code": 200,
+  "data": {
+    "assetsInfo": {
+      "points": 0
+    },
+    "buyer": 0,
+    "createdAt": 1513598770,
+    "customerSource": 702,
+    "isMember": 0,
+    "kdtId": 19343670,
+    "member": 0,
+    "mobile": "15889773501",
+    "name": "包小姐",
+    "profileInfo": {
+      "addressInfoDTO": {
+        "areaCode": 0,
+        "city": "",
+        "country": "",
+        "id": 0,
+        "name": "",
+        "province": "",
+        "zipCode": ""
+      },
+      "areaCode": 0,
+      "birthday": "1986-09-30 00:00:00",
+      "city": "",
+      "country": "",
+      "gender": 2,
+      "province": "",
+      "weixin": "",
+      "wxNickName": ""
+    },
+    "sourceId": 692947909,
+    "tradeInfo": {
+      "averageAmount": 0,
+      "lastTradeTime": 0,
+      "totalTradeAmount": 0,
+      "tradeCount": 0
+    },
+    "uicAvatar": "https://dn-kdt-img.qbox.me/upload_files/avatar.png",
+    "uicGender": 0,
+    "uicNickName": "15889773501",
+    "updatedAt": 1513598770,
+    "yzMallFansId": 0,
+    "yzUid": 692947909
+  },
+  "message": "successful",
+  "success": true
+}

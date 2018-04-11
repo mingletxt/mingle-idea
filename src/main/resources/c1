@@ -1,37 +1,64 @@
-@SpringBootApplication
-@ImportResource({"classpath*:spring/application.xml"})
-@EnableNova
-@EnableChameleon
-@ComponentScan
-@MapperScan("com.youzan.**.dal.mapper")
-public class TestBootApplication {
-
-    private Logger logger = LoggerFactory.getLogger(TestBootApplication.class);
-
-
-    public static void main(String[] args) {
-        String activeProfile = System.getProperty("spring.profiles.active");
-        if (Strings.isNullOrEmpty(activeProfile)) {
-            System.setProperty("spring.profiles.active", "qa");
-        }
-        YouZanBootApplication.run(TestBootApplication.class, args);
-    }
-
-
-    @Bean
-    public CommandLineRunner runner() {
-        return args -> {
-            //            System.out
-            //                    .println(DynamicPropertyFactory.getInstance()
-            //                            .getStringProperty("hello", "hello")
-            //                            .get());
-            //
-            //            System.out.println(DynamicPropertyFactory.getInstance()
-            //                    .getLongProperty("hystrix.threadpool.GoodsServiceGroup.coreSize", 1)
-            //                    .get());
-
-            logger.info(DynamicPropertyFactory.getInstance().getStringProperty("hello", "hello").get());
-        };
-    }
-
-}
+<if test="kdtId != null and kdtId > 0">
+                AND `kdt_id` = #{kdtId}
+            </if>
+            <if test="yzUid != null and yzUid > 0">
+                AND `yz_uid` = #{yzUid}
+            </if>
+            <if test="firstConsumerDeptId != null and firstConsumerDeptId > 1">
+                AND `first_consumer_store` = #{firstConsumerDeptId}
+            </if>
+            <if test="member != null and member >= 0">
+                AND member = #{member}
+            </if>
+            <if test="name != null and name != ''">
+                <!--AND `name` LIKE '%${name}%'-->
+                AND `name` LIKE concat('%',#{name},'%')
+            </if>
+            <if test="lastTradeTimeEnd != null">
+                AND `last_trade_time` &lt;= #{lastTradeTimeEnd}
+            </if>
+            <if test="tradeCountMax != null and tradeCountMax >= 0">
+                AND `total_trade_count` &lt;= #{tradeCountMax}
+            </if>
+            <if test="cardId != null and cardId != ''">
+                <!--AND `card_ids` LIKE '%${card_ids}%'-->
+                AND `card_ids` LIKE concat('%',#{cardId},'%')
+            </if>
+            <if test="mobile != null and mobile != ''">
+                <!--AND `mobile` LIKE '${mobile}%'-->
+                AND `mobile` LIKE concat('%',#{mobile},'%')
+            </if>
+            <if test="needFilterMobile == 1">
+                AND (`mobile` != '' OR `mobile` is not NULL)
+            </if>
+            <if test="source != null and source > 0">
+                AND `customer_src` = #{source}
+            </if>
+            <if test="meiSrc != null and meiSrc > 0">
+                AND `mei_src` = #{meiSrc}
+            </if>
+            <if test="meiSrcId != null and meiSrcId > 0">
+                AND `mei_src_id` = #{meiSrcId}
+            </if>
+            <if test="growthMin != null and growthMin > 0">
+                AND `growth` &gt;= #{growthMin}
+            </if>
+            <if test="growthMax != null and growthMax > 0">
+                AND `growth` &lt; #{growthMax}
+            </if>
+            <if test="birthday != null">
+                AND `birthday` = #{birthday}
+            </if>
+            <if test="contactNumber != null and contactNumber != ''">
+                AND `contact_number` LIKE '${contactNumber}%'
+            </if>
+            <if test="startCreateAt != null and startCreateAt != ''">
+                <![CDATA[
+                    AND `member_created_at` >= #{startCreateAt}
+                ]]>
+            </if>
+            <if test="endCreateAt != null and endCreateAt != ''">
+                <![CDATA[
+                    AND `member_created_at` <= #{endCreateAt}
+                ]]>
+            </if>

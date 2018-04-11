@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * Time 2017/8/27 下午10:30
  * Desc 文件描述
  */
-
+@Component
 public class TestDaoImpl implements TestDao {
 
     public TestDaoImpl() {

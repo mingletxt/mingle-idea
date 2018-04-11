@@ -1,47 +1,42 @@
-[
-  {
-    "adminId": 176356718,
-    "kdtId": 18617257,
-    "shopId": 21111932,
-    "staffId": 554225,
-    "account": "18938688892",
-    "name": "王攀",
-    "linkPhone": "18938688892",
-    "operator": "0",
-    "operatorId": 0,
-    "createTime": 1485226454000,
-    "updateTime": 1492334738000,
-    "status": "ON",
-    "identity": "SUPER_ADMIN"
+{
+  "code": 200,
+  "data": {
+    5126442: {
+      "assetsInfo": {
+        "cardId": [
+          74361,
+          70923
+        ]
+      },
+      "createdAt": 1510804228000,
+      "customerSource": 200,
+      "isMember": 0,
+      "kdtId": 477176,
+      "member": 1,
+      "mobile": "18927161773",
+      "name": "菊花的会员123",
+      "profileInfo": {
+        "birthday": "2017-11-10 00:00:00",
+        "gender": 2,
+        "remark": "测试aaaa",
+        "weixin": "weixin",
+        "wxNickName": ""
+      },
+      "sourceId": 5126442,
+      "tradeInfo": {
+        "averageAmount": 720,
+        "lastTradeTime": 1513911973,
+        "totalTradeAmount": 18023,
+        "tradeCount": 25
+      },
+      "uicAvatar": "http://wx.qlogo.cn/mmopen/PiajxSqBRaEKS3nx6OsBQq2RlvEdwWyaslsibKRp3GUPSCVSficiaH4gAdMlbQBl1wHobgWhI3lCl8P7CAibAciawhuA/0",
+      "uicGender": 1,
+      "uicNickName": "mingle-debug",
+      "updatedAt": 1514168897000,
+      "yzMallFansId": 0,
+      "yzUid": 5126442
+    }
   },
-  {
-    "adminId": 176356718,
-    "kdtId": 18900235,
-    "shopId": 20447337,
-    "staffId": 181436,
-    "account": "18938688892",
-    "name": "王攀hunterPan1",
-    "linkPhone": "18938688892",
-    "operator": "0",
-    "operatorId": 0,
-    "createTime": 1492410827000,
-    "updateTime": 1492410827000,
-    "status": "ON",
-    "identity": "SUPER_ADMIN"
-  },
-  {
-    "adminId": 176356718,
-    "kdtId": 63077,
-    "shopId": 0,
-    "staffId": 176356718,
-    "account": "+86-18938688892",
-    "name": "王攀hunterPan1",
-    "linkPhone": "+86-18938688892",
-    "operator": "+86-13515711996",
-    "operatorId": 6406550,
-    "createTime": 1492701600000,
-    "updateTime": 1492701600000,
-    "status": "ON",
-    "identity": "ADMIN"
-  }
-]
+  "message": "successful",
+  "success": true
+}
