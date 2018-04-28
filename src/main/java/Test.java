@@ -31,5 +31,6 @@ public class Test {
             System.out.println("put");
         });
         System.out.println(map);
+        System.out.println("110011".substring(0, 2));
     }
 }

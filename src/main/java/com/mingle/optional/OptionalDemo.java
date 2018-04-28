@@ -59,6 +59,22 @@ public class OptionalDemo {
         //lambda表达式返回值会包装为Optional实例。
         Optional<String> upperName = name.map((value) -> value.toUpperCase());
         System.out.println(upperName.orElse("No value found"));
+        Optional<String> test = name.map((value) -> {
+            String str = value.toUpperCase();
+            return str;
+        }).map(value -> {
+            String str =  "the upper is: " + value;
+            return str;
+        });
+        System.out.println(test.get());
+        String s = name.get();
+        Optional<String> instance = name.map((value) -> {
+            return value;
+        }).map(value -> {
+            return value;
+        });
+        String ss = instance.get();
+        System.out.println(ss);
         
         //flatMap与map（Funtion）非常相似，区别在于lambda表达式的返回值。
         //map方法的lambda表达式返回值可以是任何类型，但是返回值会包装成Optional实例。

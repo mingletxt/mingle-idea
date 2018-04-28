@@ -1,8 +1,5 @@
 package com.mingle.reflect;
 
-import com.sun.istack.internal.NotNull;
-
-
 /**
  * Created by mingle.
  * Time 2017/4/10 上午11:39
