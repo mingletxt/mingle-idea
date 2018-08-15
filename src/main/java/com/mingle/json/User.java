@@ -1,11 +1,15 @@
 package com.mingle.json;
 
+import lombok.Data;
+
+
 /**
  * User: mingle
  * Date: 12-9-23
  * Time: 下午2:09
  * desc
  */
+@Data
 public class User {
     
     public enum Gender {
@@ -15,7 +19,6 @@ public class User {
     
     
     ;
-    
     
     public static class Name {
         

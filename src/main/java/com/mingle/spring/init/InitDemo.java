@@ -11,10 +11,13 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class InitDemo {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         ApplicationContext context = new ClassPathXmlApplicationContext("spring/spring-init.xml");// 加载 spring 配置文件
+        ((ClassPathXmlApplicationContext)context).registerShutdownHook();
         System.out.println("init context");
         TestService testService = (TestService) context.getBean("testServiceImpl");
         testService.hello();
+        
+        //Thread.sleep(100000L);
     }
 }

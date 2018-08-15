@@ -1,240 +1,68 @@
 {
-  "success": true,
-  "code": 200,
-  "message": "successful",
-  "data": {
-    "764221900": {
-      "yzUid": 764221900,
-      "isMember": 0,
-      "uicNickName": "0",
-      "uicAvatar": "https://img.yzcdn.cn/upload_files/2018/03/21/FtW2MEY0u_ufAj3XDbKs2mfbqmn4.png"
-    },
-    "755216130": {
-      "yzUid": 755216130,
-      "kdtId": 40185500,
-      "name": "李梦雅",
-      "gender": 2,
-      "mobile": "13824277046",
-      "sourceId": 755216130,
-      "yzMallFansId": 0,
-      "member": 1,
-      "createdAt": 1520514743000,
-      "updatedAt": 1523165530000,
-      "profileInfo": {
-        "gender": 2,
-        "birthday": "",
-        "weixin": "",
-        "areaCode": 0,
-        "wxNickName": "",
-        "remark": ""
-      },
-      "customerSource": 700,
-      "meiSrc": 0,
-      "meiSrcId": 0,
-      "tradeInfo": {
-        "tradeCount": 3,
-        "lastTradeTime": 1522651503,
-        "averageAmount": 12633,
-        "totalTradeAmount": 37900
-      },
-      "assetsInfo": {
-        "cardId": [
-          100135088,
-          100146198
-        ]
-      },
-      "isMember": 0,
-      "avatar": "",
-      "uicNickName": "13824277046",
-      "uicAvatar": "https://img.yzcdn.cn/public_files/2017/11/21/fe5092d067496655082811ee182a94ed.png",
-      "uicGender": 2
-    },
-    "504957995": {
-      "yzUid": 504957995,
-      "kdtId": 40185500,
-      "name": "蔡贰贰",
-      "gender": 0,
-      "mobile": "18129508797",
-      "sourceId": 0,
-      "yzMallFansId": 0,
-      "member": 1,
-      "createdAt": 1521517639000,
-      "updatedAt": 1521517675000,
-      "profileInfo": {
-        "gender": 0,
-        "birthday": "",
-        "weixin": "",
-        "areaCode": 0,
-        "wxNickName": "",
-        "remark": ""
-      },
-      "customerSource": 700,
-      "meiSrc": 0,
-      "meiSrcId": 0,
-      "tradeInfo": {
-        "tradeCount": 1,
-        "lastTradeTime": 1521517674,
-        "averageAmount": 9900,
-        "totalTradeAmount": 9900
-      },
-      "assetsInfo": {
-        "cardId": [
-          100146198
-        ]
-      },
-      "isMember": 0,
-      "avatar": "",
-      "uicNickName": "蔡贰贰",
-      "uicAvatar": "http://wx.qlogo.cn/mmopen/HlCmmsia2rfa8wcHLkyMmp6UJibADKicXMtmZicFNcIbCm5c4HOKPUJn1jgricRGsTk9DSemeBkLdqaVl0iclSfiawxlqoDlBKF6ECO/0",
-      "uicGender": 0
-    },
-    "758331435": {
-      "yzUid": 758331435,
-      "kdtId": 40185500,
-      "name": "叮叮",
-      "gender": 0,
-      "mobile": "1345678971",
-      "sourceId": 0,
-      "yzMallFansId": 0,
-      "member": 1,
-      "createdAt": 1520823197000,
-      "updatedAt": 1520823197000,
-      "profileInfo": {
-        "gender": 0,
-        "birthday": "",
-        "weixin": "",
-        "areaCode": 0,
-        "wxNickName": "",
-        "remark": ""
-      },
-      "customerSource": 701,
-      "meiSrc": 0,
-      "meiSrcId": 0,
-      "tradeInfo": {
-        "tradeCount": 0,
-        "lastTradeTime": 0,
-        "averageAmount": 0,
-        "totalTradeAmount": 0
-      },
-      "assetsInfo": {},
-      "isMember": 0,
-      "avatar": "",
-      "uicNickName": "1345678971",
-      "uicAvatar": "https://img.yzcdn.cn/upload_files/2018/03/21/FtW2MEY0u_ufAj3XDbKs2mfbqmn4.png",
-      "uicGender": 0
-    },
-    "733623137": {
-      "yzUid": 733623137,
-      "kdtId": 40185500,
-      "name": "苏晴",
-      "gender": 2,
-      "mobile": "18207520178",
-      "sourceId": 733623137,
-      "yzMallFansId": 0,
-      "member": 1,
-      "createdAt": 1521103078000,
-      "updatedAt": 1523164943000,
-      "profileInfo": {
-        "gender": 2,
-        "birthday": "",
-        "weixin": "",
-        "areaCode": 0,
-        "wxNickName": "",
-        "remark": ""
-      },
-      "customerSource": 700,
-      "meiSrc": 0,
-      "meiSrcId": 0,
-      "tradeInfo": {
-        "tradeCount": 1,
-        "lastTradeTime": 1521103360,
-        "averageAmount": 9900,
-        "totalTradeAmount": 9900
-      },
-      "assetsInfo": {
-        "cardId": [
-          100131719
-        ]
-      },
-      "isMember": 0,
-      "avatar": "",
-      "uicNickName": "18207520178",
-      "uicAvatar": "https://img.yzcdn.cn/public_files/2017/11/21/fe5092d067496655082811ee182a94ed.png",
-      "uicGender": 2
-    },
-    "598177115": {
-      "yzUid": 598177115,
-      "kdtId": 40185500,
-      "name": "林小姐",
-      "gender": 0,
-      "mobile": "13352779897",
-      "sourceId": 0,
-      "yzMallFansId": 0,
-      "member": 1,
-      "createdAt": 1522293485000,
-      "updatedAt": 1522293485000,
-      "profileInfo": {
-        "gender": 0,
-        "birthday": "",
-        "weixin": "",
-        "areaCode": 0,
-        "wxNickName": "",
-        "remark": ""
-      },
-      "customerSource": 701,
-      "meiSrc": 0,
-      "meiSrcId": 0,
-      "tradeInfo": {
-        "tradeCount": 0,
-        "lastTradeTime": 0,
-        "averageAmount": 0,
-        "totalTradeAmount": 0
-      },
-      "assetsInfo": {},
-      "isMember": 0,
-      "avatar": "",
-      "uicNickName": "Vivi",
-      "uicAvatar": "http://wx.qlogo.cn/mmopen/KydxAIB52xntwru9N5pGWXGVib6qcupsDmib00uBw1fUl86mJfaXhXZ9feqzCUicnkp1UibkbChW72t0P5RzNGia1fkxUpF9cGMEX/0",
-      "uicGender": 0
-    },
-    "763880298": {
-      "yzUid": 763880298,
-      "kdtId": 40185500,
-      "name": "13413198977",
-      "gender": 0,
-      "mobile": "13413198977",
-      "sourceId": 0,
-      "yzMallFansId": 0,
-      "member": 1,
-      "createdAt": 1521298176000,
-      "updatedAt": 1521298688000,
-      "profileInfo": {
-        "gender": 0,
-        "birthday": "",
-        "weixin": "",
-        "areaCode": 0,
-        "wxNickName": "",
-        "remark": ""
-      },
-      "customerSource": 700,
-      "meiSrc": 0,
-      "meiSrcId": 0,
-      "tradeInfo": {
-        "tradeCount": 1,
-        "lastTradeTime": 1521298688,
-        "averageAmount": 9900,
-        "totalTradeAmount": 9900
-      },
-      "assetsInfo": {
-        "cardId": [
-          100131719
-        ]
-      },
-      "isMember": 0,
-      "avatar": "",
-      "uicNickName": "13413198977",
-      "uicAvatar": "https://img.yzcdn.cn/upload_files/2018/03/21/FtW2MEY0u_ufAj3XDbKs2mfbqmn4.png",
-      "uicGender": 0
+  "goodsType": 1,
+  "id": 30940,
+  "kdtId": 41040625,
+  "deptId": 31151561,
+  "goodsId": 425595493,
+  "goodsAlias": "1y5buk1e6tus1",
+  "title": "日本presto甲油胶（手）",
+  "subTitle": "",
+  "goodsNo": "A0000000032489",
+  "goodsPictureList": [
+    {
+      "id": 159046,
+      "kdtId": 41040625,
+      "deptId": 31151561,
+      "skuParentId": 0,
+      "skuId": 0,
+      "goodsId": 425595493,
+      "imageUrl": "http://img.yzcdn.cn/upload_files/2018/07/29/FovNjnEaiMj-X-UzKfQqTo8T-9cW.jpg",
+      "width": 1185,
+      "height": 1046,
+      "isDeptSelf": 1
     }
-  }
+  ],
+  "skuTreeList": [],
+  "goodsStockList": [
+    {
+      "goodsId": 425595493,
+      "skuId": 36237237,
+      "price": 33800,
+      "costPrice": 0,
+      "code": "A0000000032489",
+      "goodsSkuList": [],
+      "totalSoldNum": 0,
+      "stockNum": 0
+    }
+  ],
+  "priceRange": [
+    33800
+  ],
+  "originalText": "",
+  "firstPrice": 0,
+  "serviceDuration": 60,
+  "wxShow": 1,
+  "needPay": 0,
+  "shortMemo": "",
+  "memo": "",
+  "onShelve": 1,
+  "seq": 0,
+  "num": "0",
+  "hasSku": 1,
+  "createTime": 1532164692,
+  "delete": 0,
+  "price": 33800,
+  "postage": 0,
+  "totalStockNum": -1,
+  "soldTime": 0,
+  "startSoldTime": 0,
+  "totalSoldNum": 0,
+  "soldStatus": 3,
+  "shelveNum": 0,
+  "goodsCategory": {
+    "categoryId": 11447,
+    "name": "美甲",
+    "deleted": 0
+  },
+  "activityTogether": 0
 }

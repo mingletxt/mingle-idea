@@ -1,42 +1,7 @@
 {
-  "code": 200,
-  "data": {
-    5126442: {
-      "assetsInfo": {
-        "cardId": [
-          74361,
-          70923
-        ]
-      },
-      "createdAt": 1510804228000,
-      "customerSource": 200,
-      "isMember": 0,
-      "kdtId": 477176,
-      "member": 1,
-      "mobile": "18927161773",
-      "name": "菊花的会员123",
-      "profileInfo": {
-        "birthday": "2017-11-10 00:00:00",
-        "gender": 2,
-        "remark": "测试aaaa",
-        "weixin": "weixin",
-        "wxNickName": ""
-      },
-      "sourceId": 5126442,
-      "tradeInfo": {
-        "averageAmount": 720,
-        "lastTradeTime": 1513911973,
-        "totalTradeAmount": 18023,
-        "tradeCount": 25
-      },
-      "uicAvatar": "http://wx.qlogo.cn/mmopen/PiajxSqBRaEKS3nx6OsBQq2RlvEdwWyaslsibKRp3GUPSCVSficiaH4gAdMlbQBl1wHobgWhI3lCl8P7CAibAciawhuA/0",
-      "uicGender": 1,
-      "uicNickName": "mingle-debug",
-      "updatedAt": 1514168897000,
-      "yzMallFansId": 0,
-      "yzUid": 5126442
-    }
-  },
-  "message": "successful",
-  "success": true
+  "pageNo": 1,
+  "pageSize": 10,
+  "total": 0,
+  "rightType": 1,
+  "kdtId": 29678413
 }

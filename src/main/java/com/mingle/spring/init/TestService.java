@@ -7,6 +7,6 @@ package com.mingle.spring.init;
  */
 public interface TestService {
 
-    void hello();
+    void hello() throws InterruptedException;
 
 }

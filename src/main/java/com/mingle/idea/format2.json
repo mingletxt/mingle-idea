@@ -1,229 +1,40 @@
-[
-  CustomerCardWithRightsDTO
-  (
-  yzUid
-  :
-  708794313,
-  kdtId
-  :
-  40185631,
-  cardNo
-  :
-  223937095293782277,
-  isAvailable
-  :
-  true,
-  state
-  :
-  1,
-  activatedAt
-  :
-  0,
-  termBeginAt
-  :
-  0,
-  termEndAt
-  :
-  0,
-  isDefault
-  :
-  true,
-  isSyncWeChat
-  :
-  false,
-  level
-  :
-  0,
-  mobile
-  :,
-  createdAt
-  :
-  1515399893,
-  card
-  :
-  CardDTO
-  (
-  id
-  :
-  100119774,
-  kdtId
-  :
-  40185631,
-  name
-  :
-  综合卡,
-  cardAlias
-  :
-  2
-  g2seaqvqwwani,
-  colorCode
-  :
-  Color050,
-  coverUrl
-  :,
-  level
-  :
-  0,
-  grantType
-  :
-  2,
-  canBuy
-  :
-  1,
-  isNeedActivate
-  :
-  0,
-  isSyncWeixin
-  :
-  1,
-  isDisplay
-  :
-  1,
-  isDefault
-  :
-  0,
-  isAvailable
-  :
-  1,
-  syncWeixinState
-  :
-  3,
-  weixinCardId
-  :
-  pHIuujougo2CTVTER6VkG6XnQ4KU,
-  displayOrder
-  :
-  0,
-  createdAt
-  :
-  1515399834,
-  updatedAt
-  :
-  1515399838,
-  cardNumberPrefix
-  :
-  2239370952,
-  rights
-  :
-  {
-    4546977
-    =
-    CardRightsDTO
-    (
-    id: 4546977,
-    rightsType: 5,
-    rightsValue: CardRightsValueDTO
-    (
-    times: TimesRightValueDTO
-    (
-    times: 1,
-    remainTimes: 0
-    )
-    ),
-    isAvailable: 1,
-    itemType: 1,
-    itemId: 403996282,
-    isGift: 1
-    ),
-    4546976
-    =
-    CardRightsDTO
-    (
-    id: 4546976,
-    rightsType: 5,
-    rightsValue: CardRightsValueDTO
-    (
-    times: TimesRightValueDTO
-    (
-    times: 1,
-    remainTimes: 1
-    )
-    ),
-    isAvailable: 1,
-    itemType: 1,
-    itemId: 404095209,
-    isGift: 1
-    ),
-    4546973
-    =
-    CardRightsDTO
-    (
-    id: 4546973,
-    rightsType: 5,
-    rightsValue: CardRightsValueDTO
-    (
-    times: TimesRightValueDTO
-    (
-    times: 3,
-    remainTimes: 2
-    )
-    ),
-    isAvailable: 1,
-    itemType: 1,
-    itemId: 404090642,
-    isGift: 0
-    ),
-    4546972
-    =
-    CardRightsDTO
-    (
-    id: 4546972,
-    rightsType: 5,
-    rightsValue: CardRightsValueDTO
-    (
-    times: TimesRightValueDTO
-    (
-    times: 6,
-    remainTimes: 1
-    )
-    ),
-    isAvailable: 1,
-    itemType: 1,
-    itemId: 403890138,
-    isGift: 0
-    ),
-    4546975
-    =
-    CardRightsDTO
-    (
-    id: 4546975,
-    rightsType: 5,
-    rightsValue: CardRightsValueDTO
-    (
-    times: TimesRightValueDTO
-    (
-    times: 2,
-    remainTimes: 1
-    )
-    ),
-    isAvailable: 1,
-    itemType: 1,
-    itemId: 404815634,
-    isGift: 1
-    ),
-    4546974
-    =
-    CardRightsDTO
-    (
-    id: 4546974,
-    rightsType: 5,
-    rightsValue: CardRightsValueDTO
-    (
-    times: TimesRightValueDTO
-    (
-    times: 6,
-    remainTimes: 5
-    )
-    ),
-    isAvailable: 1,
-    itemType: 1,
-    itemId: 404090531,
-    isGift: 0
-    )
+{
+  "hits": {
+    "hits": [
+      {
+        "_id": "40968048-13886229",
+        "_type": "data",
+        "_source": {
+          "first_consumer_store": 0,
+          "name": "黄妙珊",
+          "mobile": "13539230759",
+          "gender": 0,
+          "created_at": "2018-06-19 16:47:23",
+          "kdt_id": 40968048,
+          "area_code": 0,
+          "member_no": "37633751",
+          "customer_src": 703,
+          "average_amount": 0,
+          "growth": 0,
+          "consultant_ids": [],
+          "last_trade_time": "1970-01-01 08:00:00",
+          "tag_ids": [
+            "16505670557"
+          ],
+          "total_trade_count": 0,
+          "yz_uid": 13886229,
+          "total_trade_amount": 0,
+          "avatar": ""
+        },
+        "_score": 2,
+        "_index": "beauty_member_search_v1"
+      }
+    ],
+    "total": 1
   },
-  isAllowRetake
-  :
-  true
-  )
-  )
-]
+  "tr": "91e0bb97",
+  "hit_cache": false,
+  "took": 7,
+  "error_code": 0,
+  "error_msg": "OK"
+}

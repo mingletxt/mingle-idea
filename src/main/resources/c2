@@ -1,38 +1,5 @@
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
-delete from member where kdt_id = 18882693 and created_at > '2018-03-29 23:25:00' limit 200;
+[ActivityGroupQuery(
+super=BaseQuery(kdtId=40902378, deptId=31140377, pageSize=20, pageNo=1),
+groupId=1534239888, keyword=2froyi51sc0reK, status=0, valid=0, itemType=, itemId=null, itemIdSet=null, orderByType=1, desc=0, orderByStr=null, containGroupDetail=false, beginTime=null, endTime=null,
+userId=213670012,
+filterHeadDept=0)]

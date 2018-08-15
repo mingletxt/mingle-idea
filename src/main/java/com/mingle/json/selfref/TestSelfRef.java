@@ -30,14 +30,14 @@ public class TestSelfRef {
         try {
             System.out.println(mapper.writeValueAsString(self));
         } catch (Throwable t) {
-            System.out.println("jackson error: " + t.getMessage());
+           t.printStackTrace();
         }
         
         Gson gson = new Gson();
         try {
             System.out.println(gson.toJson(self));
         } catch (Throwable t) {
-            System.out.println("gson error: " + t.getMessage());
+            t.printStackTrace();
         }
     }
 }

@@ -1,13 +1,77 @@
-18857467	188268904	13037332433
-18857467	461812253	13424284779
-18857467	447559711	15018750650
-18857467	465083606	15112111531
-18857467	465083855	15112988131
-18857467	461811718	15626302072
-18857467	461816248	15915112314
-18857467	469854621	15920827621
-18857467	461814597	18402025616
-18857467	461815603	18529148110
-18857467	465059095	18666077820
-18857467	461510070	18773879470
-18857467	461811781	18928522398
+code		number	
+data		object	
+    accountBalance	储值余额（单位：分）	number	
+    assetsInfo		object	
+        cardId		array<number>	
+    averageAmount	平均消费金额（单位：分）	number	
+    baseFileList		array<object>	
+        id	id	number	
+        name	字段名称	string	
+        type	类型 1:文本 2:日期 3:图片	number	
+        value	字段值	string	
+        valueList	图片url列表	array<object>	
+            key		string	
+            value		string	
+    belongDeptId	归属门店id	number	
+    belongDeptName	归属门店名称	string	
+    capitalBalance	储值本金	number	
+    couponCount	有效优惠券总数	number	
+    createdAt		number	
+    currentPoints	可用积分	number	
+    customerSource	注册来源	number	
+    customerSourceStr	注册来源字符串	string	
+    kdtId		number	
+    lastTradeTime	上次消费时间	number	
+    level		number	
+    levelAlias		string	
+    levelName		string	
+    member		number	
+    memberCardCount	有效卡总数	number	
+    memberNo	会员编号	string	
+    memoName	备注名	string	
+    mobile	手机号	string	
+    name	姓名	string	
+    presentBalance	储值赠送	number	
+    profileInfo		object	
+        addressInfoDTO		object	
+            areaCode		number	
+            city		string	
+            country		string	
+            id		number	
+            name		string	
+            province		string	
+            zipCode		string	
+        areaCode		number	
+        birthday		string	
+        city		string	
+        country		string	
+        gender	性别 1男 2女 0 其他	number	
+        province		string	
+        remark	备注	string	
+        weixin	微信	string	
+        wxNickName	微信昵称	string	
+    ruleList	安全码规则列表	array<number>	SECRET_FILE(1, "顾客的私密档案"), MOBILE(2, "顾客的手机号"), WEIXIN(3, "顾客的微信号")
+    secretFileList		array<object>	
+        id		number	
+        name	字段名称	string	
+        type	类型 1:文本 2:日期 3:图片	number	
+        value	字段值	string	
+        valueList		array<object>	
+            key		string	
+            value		string	
+    sourceId		number	
+    sourceType		number	
+    timeCardRemain	次卡剩余次数	number	
+    timeCardTotal	次卡总次数	number	
+    totalCost	累计消费金额	number	
+    totalRights	权益总数	number	
+    totalTag	标签总数	number	
+    tradeCount	累计消费次数	number	
+    updatedAt		number	
+    useCode	是否使用安全码	number	DELETE(0, "删除"), USING(1, "启用"), NON_USE(2, "停用")
+    userMemberTagDTOList	用户标签列表	array<object>	
+        tagId	标签id	number	
+        tagName	标签名称	string	
+    yzMallFansId		number	
+    yzUid		number	
+message		string

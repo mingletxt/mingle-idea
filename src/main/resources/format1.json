@@ -1,17 +1,28 @@
 {
-  "query": {
-    "bool": {
-      "must": [
-        {
-          "term": {
-            "kdt_id": "18972200"
-          }
-        }
-      ],
-      "should": [],
-      "must_not": []
-    }
-  },
-  "from": 0,
-  "size": "10"
+  "kdtId": 11837,
+  "deptId": 65255,
+  "title": "按手机号码发送",
+  "content": "测试(201808022045232)",
+  "msgNum": 2,
+  "sendMsg": 1,
+  "arriveMsg": 9,
+  "sendPeople": 8,
+  "arrivePeople": 4,
+  "type": 1,
+  "status": 1,
+  "sendTime": 1533213900232,
+  "finishTime": 1533213900232,
+  "roleId": 84395,
+  "roleName": "测试(201808022045232)",
+  "adminId": 27753,
+  "adminName": "测试(201808022045232)",
+  "version": 2001,
+  "scope": 2,
+  "mobileList": [
+    "18927161771",
+    "18927161772",
+    "18927161773",
+    "18927161774",
+    "18927161775"
+  ]
 }
