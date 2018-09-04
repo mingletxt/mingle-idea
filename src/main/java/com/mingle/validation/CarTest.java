@@ -1,3 +1,4 @@
+/*
 package com.mingle.validation;
 
 import java.util.Set;
@@ -11,11 +12,13 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+*/
 /**
  * Created by mingle.
  * Time 2018/1/15 上午11:46
  * Desc 文件描述
- */
+ *//*
+
 public class CarTest {
     
     private static Validator validator;
@@ -75,3 +78,4 @@ public class CarTest {
         assertEquals( 0, constraintViolations.size() );
     }
 }
+*/

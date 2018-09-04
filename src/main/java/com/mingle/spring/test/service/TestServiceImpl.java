@@ -1,10 +1,9 @@
-package com.mingle.spring.init;
+package com.mingle.spring.test.service;
 
+import com.mingle.spring.test.dao.TestDao;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
-import javax.annotation.Resource;
 
 
 /**

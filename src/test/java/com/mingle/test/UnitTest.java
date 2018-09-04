@@ -2,6 +2,7 @@ package com.mingle.test;
 
 import junit.framework.TestCase;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 
@@ -15,5 +16,6 @@ public class UnitTest extends TestCase{
     @Test
     public void testRead() {
         System.out.println("hello");
+        Assert.assertTrue(true);
     }
 }

@@ -1,4 +1,4 @@
-package com.mingle.spring.init;
+package com.mingle.spring.test.service;
 
 /**
  * Created by mingle.
