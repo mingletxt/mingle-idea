@@ -1,5 +1,6 @@
 package com.mingle.thread.pool;
 
+import java.util.Date;
 import java.util.Random;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -15,7 +16,8 @@ public class ThreadLocalTest {
     public static void main(String[] args) throws InterruptedException {
         ExecutorService pool = Executors.newFixedThreadPool(2);
         
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 100000; i++) {
+            System.out.println("submit " + new Date());
             pool.submit(new MyRunnable());
         }
         
@@ -31,6 +33,11 @@ class MyRunnable implements Runnable {
     @Override
     public void run() {
         Bean bean = Bean.get();
+        try {
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         bean.work();
     }
 }

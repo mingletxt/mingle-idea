@@ -1,9 +1,4 @@
-package com.mingle.test;
-
-import junit.framework.TestCase;
-
-import org.junit.Assert;
-import org.junit.Test;
+package com.mingle.thread;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
@@ -14,15 +9,11 @@ import java.util.concurrent.TimeUnit;
 
 
 /**
- * Created by mingle.
- * Time 2018/3/28 上午10:18
- * Desc 文件描述
+ * Created by mingle. Time 2019-01-08 17:17 Desc 文件描述
  */
-public class UnitTest extends TestCase{
+public class TestShutdown {
     
-    @Test
-    public void testRead() {
-        System.out.println("hello");
+    public static void main(String[] args) {
         int parallelSize = 10;
         BlockingQueue<Runnable> workingQueue = new ArrayBlockingQueue<Runnable>(parallelSize);
         RejectedExecutionHandler rejectedExecutionHandler = new ThreadPoolExecutor.CallerRunsPolicy();
@@ -38,7 +29,6 @@ public class UnitTest extends TestCase{
                 }
             });
         }
-        
-        Assert.assertTrue(true);
     }
+    
 }

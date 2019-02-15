@@ -31,7 +31,7 @@ public class TestServiceImpl implements TestService, DisposableBean {
     
     @Override
     public void hello(){
-        System.out.println(testDao.select());
+        System.out.println("hello:" + testDao.select("mingle"));
     }
 
 

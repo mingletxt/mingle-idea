@@ -12,6 +12,7 @@ import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.concurrent.Callable;
 
 
 /**
@@ -150,6 +151,13 @@ public class RedisCache implements Cache{
         // TODO Auto-generated method stub
         return null;
     }
+    
+    
+    @Override
+    public <T> T get(Object o, Callable<T> callable) {
+        return null;
+    }
+    
     
     @Override
     public ValueWrapper putIfAbsent(Object key, Object value) {

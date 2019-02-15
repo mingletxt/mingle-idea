@@ -1,68 +1,46 @@
 {
-  "goodsType": 1,
-  "id": 30940,
-  "kdtId": 41040625,
-  "deptId": 31151561,
-  "goodsId": 425595493,
-  "goodsAlias": "1y5buk1e6tus1",
-  "title": "日本presto甲油胶（手）",
-  "subTitle": "",
-  "goodsNo": "A0000000032489",
-  "goodsPictureList": [
-    {
-      "id": 159046,
-      "kdtId": 41040625,
-      "deptId": 31151561,
-      "skuParentId": 0,
-      "skuId": 0,
-      "goodsId": 425595493,
-      "imageUrl": "http://img.yzcdn.cn/upload_files/2018/07/29/FovNjnEaiMj-X-UzKfQqTo8T-9cW.jpg",
-      "width": 1185,
-      "height": 1046,
-      "isDeptSelf": 1
-    }
-  ],
-  "skuTreeList": [],
-  "goodsStockList": [
-    {
-      "goodsId": 425595493,
-      "skuId": 36237237,
-      "price": 33800,
-      "costPrice": 0,
-      "code": "A0000000032489",
-      "goodsSkuList": [],
-      "totalSoldNum": 0,
-      "stockNum": 0
-    }
-  ],
-  "priceRange": [
-    33800
-  ],
-  "originalText": "",
-  "firstPrice": 0,
-  "serviceDuration": 60,
-  "wxShow": 1,
-  "needPay": 0,
-  "shortMemo": "",
-  "memo": "",
-  "onShelve": 1,
-  "seq": 0,
-  "num": "0",
-  "hasSku": 1,
-  "createTime": 1532164692,
-  "delete": 0,
-  "price": 33800,
-  "postage": 0,
-  "totalStockNum": -1,
-  "soldTime": 0,
-  "startSoldTime": 0,
-  "totalSoldNum": 0,
-  "soldStatus": 3,
-  "shelveNum": 0,
-  "goodsCategory": {
-    "categoryId": 11447,
-    "name": "美甲",
-    "deleted": 0
+  "bizCategory": "BEAUTY",
+  "buyer": {
+    "buyerId": 778384917,
+    "buyerPhone": "",
+    "name": ""
   },
-  "activityTogether": 0
+  "shopCompositeId": {
+    "kdtId": 964602163,
+    "shopId": 0,
+    "shopType": 1
+  },
+  "tradeItemDTOGroup": [
+    {
+      "shopCompositeId": {
+        "kdtId": 964602163,
+        "shopId": 0,
+        "shopType": 1
+      },
+      "num": 1,
+      "goodsType": 203,
+      "outside": true,
+      "extension": {
+        "OUTSIDE_GOODS_INFO": "{\"goodsAlias\":\"28z52cnjoiis3\",\"title\":\"菊花服务\",\"attachmentUrl\":\"http://dn-kdt-img-test.qbox.me/upload_files/2019/01/11/Fg5rWBfTsWHLPzq2yMY0F08Xwa5A.png\",\"goodsId\":96197994,\"extraMap\":{}}",
+        "ITEM_PRICE": "{\"originPrice\":10000,\"currentPrice\":10000}",
+        "BEAUTY_ITEM_PRO": "{\"arbitraryPro\":0,\"rightsPro\":10000}"
+      }
+    }
+  ],
+  "payType": "OFFLINE_CASH",
+  "receiverPhone": "",
+  "receiverName": "",
+  "logisticsType": "NONE",
+  "memo": "",
+  "sellerMemo": "",
+  "extension": {
+    "DEPT_ID": "964602164",
+    "IS_OFFLINE": "1",
+    "PAY_RETURN_URL": "https://mei.youzan.com/api/node/pay/callback?orderNo=M2019012819343497680563&kdtId=964602163&orderType=0&deptId=964602164",
+    "BEAUTY_ORDER_PHASE": "2",
+    "IS_USE_PARAM_PRICE": "1",
+    "IS_RESERVE_ORDER": "0",
+    "GROUP_PRICE": "{\"originTotalAmount\":10000,\"promotionAmount\":10000,\"prePayAmount\":0,\"freight\":0,\"totalAmount\":0}"
+  },
+  "fromCart": false
 }

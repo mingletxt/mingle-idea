@@ -16,7 +16,7 @@ public class TestDaoImpl implements TestDao {
     }
 
     @Override
-    public String select() {
-        return String.valueOf(System.currentTimeMillis());
+    public String select(String str) {
+        return String.valueOf(System.currentTimeMillis() + str);
     }
 }

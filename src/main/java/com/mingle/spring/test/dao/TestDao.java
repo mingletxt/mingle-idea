@@ -7,5 +7,5 @@ package com.mingle.spring.test.dao;
  */
 public interface TestDao {
 
-    String select();
+    String select(String str);
 }
