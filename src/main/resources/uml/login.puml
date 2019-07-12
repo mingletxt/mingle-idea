@@ -1,0 +1,22 @@
+@startuml
+browser -> browser: RSA encrypt 明文密码
+
+browser -> User_Server: 请求服务器时间截
+
+User_Server --> browser: 返回服务器timestamp
+
+browser -> nginx: 通过https发送用户名和encrypt后的(密码-timestamp)
+
+nginx -> User_Server: 转发https
+
+User_Server -> User_Server: RSA decrypt 解析出请求密码(在内存中是明文)
+
+User_Server -> DB: 查询用户加盐密码
+
+User_Server -> User_Server: sha256(请求密码+盐)并与数据库密码对比
+
+User_Server --> nginx: 帐号密码是否正确
+
+nginx --> browser: 帐号密码是否正确
+
+@enduml

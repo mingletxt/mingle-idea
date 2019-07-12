@@ -1,46 +1,23 @@
 {
-  "bizCategory": "BEAUTY",
-  "buyer": {
-    "buyerId": 778384917,
-    "buyerPhone": "",
-    "name": ""
-  },
-  "shopCompositeId": {
-    "kdtId": 964602163,
-    "shopId": 0,
-    "shopType": 1
-  },
-  "tradeItemDTOGroup": [
-    {
-      "shopCompositeId": {
-        "kdtId": 964602163,
-        "shopId": 0,
-        "shopType": 1
-      },
-      "num": 1,
-      "goodsType": 203,
-      "outside": true,
-      "extension": {
-        "OUTSIDE_GOODS_INFO": "{\"goodsAlias\":\"28z52cnjoiis3\",\"title\":\"菊花服务\",\"attachmentUrl\":\"http://dn-kdt-img-test.qbox.me/upload_files/2019/01/11/Fg5rWBfTsWHLPzq2yMY0F08Xwa5A.png\",\"goodsId\":96197994,\"extraMap\":{}}",
-        "ITEM_PRICE": "{\"originPrice\":10000,\"currentPrice\":10000}",
-        "BEAUTY_ITEM_PRO": "{\"arbitraryPro\":0,\"rightsPro\":10000}"
-      }
-    }
-  ],
-  "payType": "OFFLINE_CASH",
-  "receiverPhone": "",
-  "receiverName": "",
-  "logisticsType": "NONE",
-  "memo": "",
-  "sellerMemo": "",
-  "extension": {
-    "DEPT_ID": "964602164",
-    "IS_OFFLINE": "1",
-    "PAY_RETURN_URL": "https://mei.youzan.com/api/node/pay/callback?orderNo=M2019012819343497680563&kdtId=964602163&orderType=0&deptId=964602164",
-    "BEAUTY_ORDER_PHASE": "2",
-    "IS_USE_PARAM_PRICE": "1",
-    "IS_RESERVE_ORDER": "0",
-    "GROUP_PRICE": "{\"originTotalAmount\":10000,\"promotionAmount\":10000,\"prePayAmount\":0,\"freight\":0,\"totalAmount\":0}"
-  },
-  "fromCart": false
+  "appName": "caixin",
+  "all_list": "512281`512257`512237`512022`511960`512277`507382`489563",
+  "app_type": "21",
+  "channel_id": "158",
+  "device": "869499036691479",
+  "entityProp": "{\"deviceType\":\"aaaa\",\"uid\":\"7410339\",\"unit\":\"bbbb\",\"code\":\"0\",\"systype\":\"fffff\",\"apptype\":\"eeeee\",\"sysversion\":\"ccccc\",\"appversion\":\"ddddd\",\"device\":\"bd69feb54b2aa3ab58bdc620c4d0896218d78632\",\"push_token\":\"<de6eb29e 53423d22 020edea9 730a3efe b8b26632 a3f48146 a6b758ef fd009dcc>\",\"transactionid\":\"47723510-F388-4678-AF2E-D2EA938B0502\"}",
+  "education": "",
+  "exp_name": "ios_autoreco",
+  "gender": "",
+  "is_first_request": "1",
+  "is_pay_user": "1",
+  "location": "",
+  "nationality": "",
+  "occupation": "",
+  "recoid": "255d6510e9b84bda2fd",
+  "return_num": "8",
+  "sys_type": "ios",
+  "top_list": "",
+  "uid": "7410339",
+  "uuid": "9c25f8d3-cd1f-4231-852d-ca510f09a8cc",
+  "test": "true"
 }
